@@ -6,13 +6,12 @@ module.exports = function(grunt){
       dev: {
         files: {
           'public/stylesheets/application.css': 'public/sass/application.scss',
-          'public/stylesheets/examples.css': 'public/sass/examples.scss',
-          'public/stylesheets/elements.css': 'public/sass/elements.scss'
+          'public/stylesheets/examples.css': 'public/sass/examples.scss'
         },
         options: {
           includePaths: ['govuk/public/sass'],
           outputStyle: 'expanded'
-        } 
+        }
       }
     },
 
@@ -52,7 +51,7 @@ module.exports = function(grunt){
       fixSass: {
         src: ['govuk/public/sass/**/*.scss'],
         overwrite: true,
-        replacements: [{ 
+        replacements: [{
           from: /filter:chroma(.*);/g,
           to: 'filter:unquote("chroma$1");'
         }]
@@ -98,7 +97,7 @@ module.exports = function(grunt){
   ].forEach(function (task) {
     grunt.loadNpmTasks(task);
   });
-  
+
   grunt.registerTask(
     'convert_template',
     'Converts the govuk_template to use mustache inheritance',
