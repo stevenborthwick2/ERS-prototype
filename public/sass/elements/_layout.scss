@@ -12,6 +12,7 @@
 #content {
   text-align: left;
   @include outer-block;
+  @include contain-floats; // TODO: awaiting merge into front end toolkit
 }
 
 // Use .outer-block to create a max width block of 1020px,
@@ -19,13 +20,25 @@
 
 .outer-block {
   @include outer-block;
+  @include contain-floats; // Repeated as %extend placeholder insn't understood
 }
 .inner-block {
   @include inner-block;
 }
 
 
+// ==========================================================================
+// Phase banner
+// ==========================================================================
+
+.phase-banner  {
+  @include phase-banner(alpha);
+}
+
+
 // Grid layout
+// ==========================================================================
+
 .grid-wrapper {
   @include contain-floats;
   @include media(tablet) {

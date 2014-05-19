@@ -754,3 +754,21 @@ ul li, ol li {
 
 .text-secondary {
   color: #6f777b; }
+
+#content {
+  margin: 0 auto;
+  width: auto;
+  max-width: 1020px;
+  padding-bottom: 90px; }
+  #content:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.inner-block {
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 641px) {
+    .inner-block {
+      padding-left: 30px;
+      padding-right: 30px; } }

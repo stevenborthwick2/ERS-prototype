@@ -1,36 +1,13 @@
-/* includes node_modules/govuk_frontend_toolkit/govuk_frontend_toolkit/stylesheets */
+// Import elements
+@import 'elements';
 
-@import '_colours';
-@import '_typography';
-@import 'design-patterns/_buttons';
-@import 'design-patterns/_alpha-beta';
-
+// Set up main content
 #content {
-  margin: 0 auto;
-  max-width: 1020px;
-  
-  @include ie-lte(6)  {
-    width: 990px;
-  }
+  @include outer-block;
+  padding-bottom: 90px;
 }
-.page-header {
-  padding: 0 32px;
-
-  h1 {
-    @include bold-48;
-    padding: 25px 0 15px;
-  }
+.inner-block {
+  @include inner-block;
 }
 
-/* Alpha/Beta styles */
-
-.alpha-banner  {
-  @include core-19;
-  @include phase-banner(alpha);
-  strong {
-    text-transform: uppercase;
-  }
-}
-.alpha-tag {
-  @include phase-tag(alpha);
-}
+// Your styles here
