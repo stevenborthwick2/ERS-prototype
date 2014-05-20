@@ -44,6 +44,13 @@ module.exports = function(grunt){
         dest: 'govuk/public/sass/'
       },
 
+      govuk_frontend_toolkit_assets: {
+        expand: true,
+        src: '**',
+        cwd: 'node_modules/govuk_frontend_toolkit/govuk_frontend_toolkit/images/',
+        dest: 'govuk/public/images/icons/'
+      },
+
     },
 
     // workaround for libsass
@@ -114,6 +121,7 @@ module.exports = function(grunt){
     'copy:govuk_assets',
     'convert_template',
     'copy:govuk_frontend_toolkit',
+    'copy:govuk_frontend_toolkit_assets',
     'replace',
     'sass',
     'concurrent:target'
