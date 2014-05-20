@@ -1,6 +1,12 @@
 module.exports = function(grunt){
   grunt.initConfig({
 
+    execute: {
+        target: {
+            src: ['app.js']
+        }
+    },
+
     // Builds Sass
     sass: {
       dev: {
@@ -74,6 +80,7 @@ module.exports = function(grunt){
       }
     },
 
+/*
     // nodemon watches for changes and restarts app
     nodemon: {
       dev: {
@@ -84,21 +91,22 @@ module.exports = function(grunt){
       }
     },
 
+*/
     concurrent: {
         target: {
-            tasks: ['watch', 'nodemon'],
+            tasks: ['watch', 'execute'],
             options: {
                 logConcurrentOutput: true
             }
         }
     }
   });
-
   [
     'grunt-contrib-copy',
     'grunt-contrib-watch',
     'grunt-sass',
-    'grunt-nodemon',
+    'grunt-execute',
+    // 'grunt-nodemon',
     'grunt-text-replace',
     'grunt-concurrent'
   ].forEach(function (task) {
