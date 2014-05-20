@@ -22,7 +22,11 @@ module.exports = {
 
     });
 
-    /* Elements example pages */
+    /* Elements pages */
+
+    app.get('/examples/elements/intro', function (req, res) {
+      res.render('examples/elements/intro', {'assetPath' : assetPath });
+    });
 
     app.get('/examples/elements/grid-layout', function (req, res) {
       res.render('examples/elements/grid_layout', {'assetPath' : assetPath });
