@@ -7,38 +7,96 @@ module.exports = {
 
     });
 
-    app.get('/sample', function (req, res) {
-
-      res.render('sample',
-                {'assetPath' : assetPath});
-    });
-
-    /* Example pages */
-
-    app.get('/examples/template-partial-areas', function (req, res) {
-
-      res.render('examples/template_partial_areas',
+      app.get('/scenarios', function (req, res) {
+      res.render('scenarios',
                 {'assetPath' : assetPath});
 
     });
 
-    /* Elements pages */
+//Scenario 1
+    app.get('/start_scenario1', function (req, res) {
+      res.render('start_scenario1',
+                {'assetPath' : assetPath});
 
-    app.get('/examples/elements/intro', function (req, res) {
-      res.render('examples/elements/intro', {'assetPath' : assetPath });
+    });
+    
+    app.get('/what_scenario1_2', function (req, res) {
+      res.render('what_scenario1_2',
+                {'assetPath' : assetPath});
+
+    });
+    
+    app.get('/group_scenario1_3', function (req, res) {
+      res.render('group_scenario1_3',
+                {'assetPath' : assetPath});
+
     });
 
-    app.get('/examples/elements/grid-layout', function (req, res) {
-      res.render('examples/elements/grid_layout', {'assetPath' : assetPath });
+        app.get('/group_company_scenario1_4', function (req, res) {
+      res.render('group_company_scenario1_4',
+                {'assetPath' : assetPath});
+
     });
 
-    app.get('/examples/elements/typography', function (req, res) {
-      res.render('examples/elements/typography', {'assetPath' : assetPath });
+               app.get('/group_company_edit_scenario1_5', function (req, res) {
+      res.render('group_company_edit_scenario1_5',
+                {'assetPath' : assetPath});
+
+    });
+       
+                   app.get('/alterations_scenario1_6', function (req, res) {
+      res.render('alterations_scenario1_6',
+                {'assetPath' : assetPath});
+
     });
 
-    app.get('/examples/elements/forms', function (req, res) {
-      res.render('examples/elements/forms', {'assetPath' : assetPath });
+    app.get('/alterations_check_scenario1_7', function (req, res) {
+      res.render('alterations_check_scenario1_7',
+                {'assetPath' : assetPath});
+       
+         });
+
+    
+    app.get('/summary_scenario1_8', function (req, res) {
+      res.render('summary_scenario1_8',
+                {'assetPath' : assetPath});
+       
+         });
+
+     app.get('/confirmation_scenario1_9', function (req, res) {
+      res.render('confirmation_scenario1_9',
+                {'assetPath' : assetPath});
+       
+         });
+        app.get('/summary_scenario1_8_details', function (req, res) {
+      res.render('summary_scenario1_8_details',
+                {'assetPath' : assetPath});
+       
+         });
+  //Scenario 2
+  app.get('/start_scenario2', function (req, res) {
+      res.render('start_scenario2',
+                {'assetPath' : assetPath});
+
+    });
+    app.get('/what_scenario2_2', function (req, res) {
+      res.render('what_scenario2_2',
+                {'assetPath' : assetPath});
+
     });
 
-  }
+    app.get('/check_scenario2_3', function (req, res) {
+      res.render('check_scenario2_3',
+                {'assetPath' : assetPath});
+
+    });
+
+        app.get('/errors_scenario2_4', function (req, res) {
+      res.render('errors_scenario2_4',
+                {'assetPath' : assetPath});
+
+    });
+
+
+    }
 };
