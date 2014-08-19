@@ -97,6 +97,74 @@ module.exports = {
 
     });
 
+        //Scenario 3
+
+        app.get('/start_scenario3', function (req, res) {
+      res.render('start_scenario3',
+                {'assetPath' : assetPath});
+
+    });
+
+
+        app.get('/what_scenario3_2', function (req, res) {
+      res.render('what_scenario3_2',
+                {'assetPath' : assetPath});
+
+    });
+
+                app.get('/check_scenario3_3', function (req, res) {
+      res.render('check_scenario3_3',
+                {'assetPath' : assetPath});
+
+    });
+                app.get('/no_errors_scenario3_4', function (req, res) {
+      res.render('no_errors_scenario3_4',
+                {'assetPath' : assetPath});
+
+    });
+
+     app.get('/group_scenario3_5', function (req, res) {
+      res.render('group_scenario3_5',
+                {'assetPath' : assetPath});
+
+    });
+
+        app.get('/group_company_scenario3_6', function (req, res) {
+      res.render('group_company_scenario3_6',
+                {'assetPath' : assetPath});
+
+    });
+
+               app.get('/group_company_edit_scenario3_7', function (req, res) {
+      res.render('group_company_edit_scenario3_7',
+                {'assetPath' : assetPath});
+
+    });
+       
+                   app.get('/alterations_scenario3_8', function (req, res) {
+      res.render('alterations_scenario3_8',
+                {'assetPath' : assetPath});
+
+    });
+
+    app.get('/alterations_check_scenario3_9', function (req, res) {
+      res.render('alterations_check_scenario3_9',
+                {'assetPath' : assetPath});
+       
+         });
+
+    
+    app.get('/summary_scenario3_10', function (req, res) {
+      res.render('summary_scenario3_10',
+                {'assetPath' : assetPath});
+       
+         });
+
+     app.get('/confirmation_scenario3_11', function (req, res) {
+      res.render('confirmation_scenario3_11',
+                {'assetPath' : assetPath});
+
+       });
 
     }
 };
