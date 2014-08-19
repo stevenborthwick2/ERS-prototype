@@ -38,3 +38,8 @@
 table th, table td {
   font-family: "nta", Arial, sans-serif;
   font-size: 16px;}
+
+  #content {
+  @include outer-block;
+  padding-bottom: 120px;
+}
