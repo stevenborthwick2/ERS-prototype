@@ -13,7 +13,7 @@ module.exports = {
 
     });
 
-//Scenario 1
+//CSOP annual return Scenario 1
     app.get('/start_scenario1', function (req, res) {
       res.render('start_scenario1',
                 {'assetPath' : assetPath});
@@ -165,6 +165,47 @@ module.exports = {
                 {'assetPath' : assetPath});
 
        });
+
+     //Checking Service Scenario 1
+
+        app.get('/checking_service/checking_start_scenario1', function (req, res) {
+      res.render('checking_service/checking_start_scenario1',
+                {'assetPath' : assetPath});
+
+       });
+    
+    app.get('/checking_service/check_scenario1_2', function (req, res) {
+      res.render('checking_service/check_scenario1_2',
+                {'assetPath' : assetPath});
+
+       });
+
+        app.get('/checking_service/errors_scenario1_3', function (req, res) {
+      res.render('checking_service/errors_scenario1_3',
+                {'assetPath' : assetPath});
+
+       });
+               app.get('/checking_service/checking_start_scenario2', function (req, res) {
+      res.render('checking_service/checking_start_scenario2',
+                {'assetPath' : assetPath});
+
+       });
+
+       app.get('/checking_service/check_scenario2_2', function (req, res) {
+      res.render('checking_service/check_scenario2_2',
+                {'assetPath' : assetPath});
+
+       });
+
+       app.get('/checking_service/confirmation_scenario2_3', function (req, res) {
+      res.render('checking_service/confirmation_scenario2_3',
+                {'assetPath' : assetPath});
+
+       });
+
+
+
+
 
     }
 };
