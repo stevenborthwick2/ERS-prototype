@@ -204,6 +204,14 @@ module.exports = {
        });
 
 
+       app.get('/checking_service/select_scheme', function (req, res) {
+      res.render('checking_service/select_scheme',
+                {'assetPath' : assetPath});
+
+       });
+
+
+
 
 
 
