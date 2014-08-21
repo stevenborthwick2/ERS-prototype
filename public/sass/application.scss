@@ -12,6 +12,16 @@
 }
 
 // Your styles here
+
+.help_container {
+    clear: both
+}
+
+  #content {
+  @include outer-block;
+  padding-bottom: 120px;
+}
+
 .hmrc-banner {
     border-left: 2px solid #009390;
     display: block;
@@ -29,18 +39,30 @@
     height: 28px;
     width: 28px;
     display: inline-block;
-    background:url('../images/crests/hmrc_crest_18px.png') no-repeat;
+    background:url('../images/hmrc_crest_18px.png') no-repeat;
     vertical-align: middle;
 }
 
-.help_container {
-    clear: both
-}
+// larger table text
+
 table th, table td {
   font-family: "nta", Arial, sans-serif;
   font-size: 16px;}
 
-  #content {
-  @include outer-block;
-  padding-bottom: 120px;
+
+//green confirmation box
+
+.confirmation {
+background-color: #28A197;
+ text-align: center;
+  color: #ffffff; 
+  padding: 2px;
+
 }
+
+//grey bottom border
+
+.bottom-grey {
+clear: both;
+border-bottom: 1px solid #bfc1c3}
+

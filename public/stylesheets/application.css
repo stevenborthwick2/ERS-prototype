@@ -10,7 +10,7 @@
 @-o-viewport {
   width: device-width; }
 
-%contain-floats:after {
+#content:after, .outer-block:after, #content:after, #content:after {
   content: "";
   display: block;
   clear: both; }
@@ -41,7 +41,7 @@
 @-o-viewport {
   width: device-width; }
 
-%contain-floats:after {
+#content:after, .outer-block:after, #content:after, #content:after {
   content: "";
   display: block;
   clear: both; }
@@ -58,7 +58,7 @@
 @-o-viewport {
   width: device-width; }
 
-%contain-floats:after {
+#content:after, .outer-block:after, #content:after, #content:after {
   content: "";
   display: block;
   clear: both; }
@@ -69,7 +69,7 @@
 @-o-viewport {
   width: device-width; }
 
-%contain-floats:after {
+#content:after, .outer-block:after, #content:after, #content:after {
   content: "";
   display: block;
   clear: both; }
@@ -889,7 +889,6 @@ table th {
 details, summary {
   display: block; }
 
-
 details summary:focus {
   outline: 3px solid #ffbf47; }
 
@@ -1145,6 +1144,15 @@ ul li, ol li {
       padding-left: 30px;
       padding-right: 30px; } }
 
+.help_container {
+  clear: both; }
+
+#content {
+  margin: 0 auto;
+  width: auto;
+  max-width: 1020px;
+  padding-bottom: 120px; }
+
 .hmrc-banner {
   border-left: 2px solid #009390;
   display: block;
@@ -1161,18 +1169,19 @@ ul li, ol li {
   height: 28px;
   width: 28px;
   display: inline-block;
-  background: url('../images/crests/hmrc_crest_18px.png') no-repeat;
+  background: url('../images/hmrc_crest_18px.png') no-repeat;
   vertical-align: middle; }
-
-.help_container {
-  clear: both; }
 
 table th, table td {
   font-family: "nta", Arial, sans-serif;
   font-size: 16px; }
 
-#content {
-  margin: 0 auto;
-  width: auto;
-  max-width: 1020px;
-  padding-bottom: 120px; }
+.confirmation {
+  background-color: #28A197;
+  text-align: center;
+  color: #ffffff;
+  padding: 2px; }
+
+.bottom-grey {
+  clear: both;
+  border-bottom: 1px solid #bfc1c3; }
