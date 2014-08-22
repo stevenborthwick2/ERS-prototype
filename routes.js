@@ -203,8 +203,15 @@ module.exports = {
 
        });
 
+//Scenario 3 Check scheme select type
+             app.get('/checking_service/checking_start_scenario3', function (req, res) {
+      res.render('checking_service/checking_start_scenario3',
+                {'assetPath' : assetPath});
 
-       app.get('/checking_service/select_scheme', function (req, res) {
+       });
+
+
+      app.get('/checking_service/select_scheme', function (req, res) {
       res.render('checking_service/select_scheme',
                 {'assetPath' : assetPath});
 
