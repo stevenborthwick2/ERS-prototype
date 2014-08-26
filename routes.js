@@ -13,6 +13,12 @@ module.exports = {
 
     });
 
+       app.get('/examples', function (req, res) {
+      res.render('examples',
+                {'assetPath' : assetPath});
+
+    });
+
 //CSOP annual return Scenario 1
     app.get('/start_scenario1', function (req, res) {
       res.render('start_scenario1',
@@ -213,6 +219,19 @@ module.exports = {
 
       app.get('/checking_service/select_scheme', function (req, res) {
       res.render('checking_service/select_scheme',
+                {'assetPath' : assetPath});
+
+       });
+
+
+      app.get('/checking_service/checking_scenario3_3', function (req, res) {
+      res.render('checking_service/checking_scenario3_3',
+                {'assetPath' : assetPath});
+
+       });
+
+            app.get('/checking_service/errors_scenario3_4', function (req, res) {
+      res.render('checking_service/errors_scenario3_4',
                 {'assetPath' : assetPath});
 
        });
