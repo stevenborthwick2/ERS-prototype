@@ -1169,7 +1169,7 @@ ul li, ol li {
   height: 28px;
   width: 28px;
   display: inline-block;
-  background: url('../images/hmrc_crest_18px.png') no-repeat;
+  background: url('../images/icons/crests/hmrc_crest_18px.png') no-repeat;
   vertical-align: middle; }
 
 table th, table td {
