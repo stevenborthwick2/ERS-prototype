@@ -236,6 +236,13 @@ module.exports = {
 
        });
 
+                 app.get('/checking_service/error_webpage', function (req, res) {
+      res.render('checking_service/error_webpage',
+                {'assetPath' : assetPath});
+
+       });
+
+
 
 
 
