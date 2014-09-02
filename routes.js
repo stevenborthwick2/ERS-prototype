@@ -242,11 +242,12 @@ module.exports = {
 
        });
 
+                 // declaration test
+     app.get('/confirmation_declaration_test', function (req, res) {
+      res.render('confirmation_declaration_test',
+                {'assetPath' : assetPath});
 
-
-
-
-
+    });
 
     }
 };
