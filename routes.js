@@ -249,5 +249,12 @@ module.exports = {
 
     });
 
+        app.get('/alterations_declaration_test', function (req, res) {
+      res.render('alterations_declaration_test',
+                {'assetPath' : assetPath});
+
+    });
+
+
     }
 };
