@@ -243,6 +243,48 @@ module.exports = {
        });
 
                  // declaration test
+     
+       app.get('/user_testing/user_testing', function (req, res) {
+      res.render('user_testing/user_testing',
+                {'assetPath' : assetPath});
+
+    });
+
+app.get('/user_testing/logout1', function (req, res) {
+      res.render('user_testing/logout1',
+                {'assetPath' : assetPath});
+
+    });
+
+  app.get('/user_testing/logout1_2', function (req, res) {
+      res.render('user_testing/logout1_2',
+                {'assetPath' : assetPath});
+
+    });
+      app.get('/user_testing/logout1_3', function (req, res) {
+      res.render('user_testing/logout1_3',
+                {'assetPath' : assetPath});
+
+    });
+      app.get('/user_testing/logout1_4', function (req, res) {
+      res.render('user_testing/logout1_4',
+                {'assetPath' : assetPath});
+
+    });
+
+      app.get('/user_testing/logout1_5', function (req, res) {
+      res.render('user_testing/logout1_5',
+                {'assetPath' : assetPath});
+
+    });
+    app.get('/user_testing/checking_start_logout', function (req, res) {
+      res.render('user_testing/checking_start_logout',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
      app.get('/confirmation_declaration_test', function (req, res) {
       res.render('confirmation_declaration_test',
                 {'assetPath' : assetPath});
@@ -254,6 +296,8 @@ module.exports = {
                 {'assetPath' : assetPath});
 
     });
+
+
 
 
     }
