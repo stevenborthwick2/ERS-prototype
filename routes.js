@@ -272,6 +272,27 @@ app.get('/user_testing/logout1', function (req, res) {
 
     });
 
+      app.get('/user_testing/logout1_4_2', function (req, res) {
+      res.render('user_testing/logout1_4_2',
+                {'assetPath' : assetPath});
+
+    });
+
+      app.get('/user_testing/logout1_4_3', function (req, res) {
+      res.render('user_testing/logout1_4_3',
+                {'assetPath' : assetPath});
+
+    });
+
+      app.get('/user_testing/logout1_4_4', function (req, res) {
+      res.render('user_testing/logout1_4_4',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+
       app.get('/user_testing/logout1_5', function (req, res) {
       res.render('user_testing/logout1_5',
                 {'assetPath' : assetPath});
