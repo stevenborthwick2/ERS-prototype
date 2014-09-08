@@ -79,6 +79,7 @@ module.exports = {
                 {'assetPath' : assetPath});
        
          });
+
   //Scenario 2
   app.get('/start_scenario2', function (req, res) {
       res.render('start_scenario2',
@@ -180,58 +181,47 @@ module.exports = {
 
        });
     
-    app.get('/checking_service/check_scenario1_2', function (req, res) {
-      res.render('checking_service/check_scenario1_2',
+  app.get('/checking_service/select_scheme_scenario1_2', function (req, res) {
+      res.render('checking_service/select_scheme_scenario1_2',
                 {'assetPath' : assetPath});
 
        });
 
-        app.get('/checking_service/errors_scenario1_3', function (req, res) {
-      res.render('checking_service/errors_scenario1_3',
+    app.get('/checking_service/checking_scenario1_3', function (req, res) {
+      res.render('checking_service/checking_scenario1_3',
                 {'assetPath' : assetPath});
 
        });
+
+        app.get('/checking_service/errors_scenario1_4', function (req, res) {
+      res.render('checking_service/errors_scenario1_4',
+                {'assetPath' : assetPath});   
+
+                 });
+
+      // Checking Scenario 2
+
+   
                app.get('/checking_service/checking_start_scenario2', function (req, res) {
       res.render('checking_service/checking_start_scenario2',
                 {'assetPath' : assetPath});
 
        });
 
-       app.get('/checking_service/check_scenario2_2', function (req, res) {
-      res.render('checking_service/check_scenario2_2',
+       app.get('/checking_service/select_scheme_scenario2_2', function (req, res) {
+      res.render('checking_service/select_scheme_scenario2_2',
                 {'assetPath' : assetPath});
 
        });
 
-       app.get('/checking_service/confirmation_scenario2_3', function (req, res) {
-      res.render('checking_service/confirmation_scenario2_3',
+        app.get('/checking_service/checking_scenario2_3', function (req, res) {
+      res.render('checking_service/checking_scenario2_3',
                 {'assetPath' : assetPath});
 
        });
 
-//Scenario 3 Check scheme select type
-             app.get('/checking_service/checking_start_scenario3', function (req, res) {
-      res.render('checking_service/checking_start_scenario3',
-                {'assetPath' : assetPath});
-
-       });
-
-
-      app.get('/checking_service/select_scheme', function (req, res) {
-      res.render('checking_service/select_scheme',
-                {'assetPath' : assetPath});
-
-       });
-
-
-      app.get('/checking_service/checking_scenario3_3', function (req, res) {
-      res.render('checking_service/checking_scenario3_3',
-                {'assetPath' : assetPath});
-
-       });
-
-            app.get('/checking_service/errors_scenario3_4', function (req, res) {
-      res.render('checking_service/errors_scenario3_4',
+       app.get('/checking_service/confirmation_scenario2_4', function (req, res) {
+      res.render('checking_service/confirmation_scenario2_4',
                 {'assetPath' : assetPath});
 
        });
@@ -291,13 +281,12 @@ app.get('/user_testing/logout1', function (req, res) {
     });
 
 
-
-
       app.get('/user_testing/logout1_5', function (req, res) {
       res.render('user_testing/logout1_5',
                 {'assetPath' : assetPath});
 
     });
+
     app.get('/user_testing/checking_start_logout', function (req, res) {
       res.render('user_testing/checking_start_logout',
                 {'assetPath' : assetPath});
