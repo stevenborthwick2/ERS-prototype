@@ -339,32 +339,29 @@ app.get('/user_testing/logout1', function (req, res) {
     });
 
          
-             app.get('/SIP/scenario1_5_Alterations_SIP', function (req, res) {
-      res.render('SIP/scenario1_5_Alterations_SIP',
+             app.get('/SIP/scenario1_5_Trustee_Details_SIP', function (req, res) {
+      res.render('SIP/scenario1_5_Trustee_Details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SIP/scenario1_6_Trustee_Edit_SIP', function (req, res) {
+      res.render('SIP/scenario1_6_Trustee_Edit_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+app.get('/SIP/scenario1_7_Alterations_SIP', function (req, res) {
+      res.render('SIP/scenario1_7_Alterations_SIP',
                 {'assetPath' : assetPath});
 
     });      
 
-                app.get('/SIP/scenario1_6_Alterations_Check_SIP', function (req, res) {
-      res.render('SIP/scenario1_6_Alterations_Check_SIP',
+                app.get('/SIP/scenario1_8_Alterations_Check_SIP', function (req, res) {
+      res.render('SIP/scenario1_8_Alterations_Check_SIP',
                 {'assetPath' : assetPath});
 
     }); 
-
-
-
-          app.get('/SIP/scenario1_7_Trustee_Details_SIP', function (req, res) {
-      res.render('SIP/scenario1_7_Trustee_Details_SIP',
-                {'assetPath' : assetPath});
-
-    });
-
-            app.get('/SIP/scenario1_8_Trustee_Edit_SIP', function (req, res) {
-      res.render('SIP/scenario1_8_Trustee_Edit_SIP',
-                {'assetPath' : assetPath});
-
-    });
-
 
                 app.get('/SIP/scenario1_9_Summary_SIP', function (req, res) {
       res.render('SIP/scenario1_9_Summary_SIP',

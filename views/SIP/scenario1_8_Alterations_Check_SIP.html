@@ -19,20 +19,26 @@
   
 <main id="content" role="main">
   <div class="outer-block">
-   <div class="inner-block">
+     <div class="inner-block">
   <!-- main content starts -->
- {{>what}}
+     {{>sub_header_sip}}
+  {{>alterations_check_SIP}}
+  
+              <div class="form-group">
+                <br>
+                <br>
+                <a class="button" id="btnValidationNext" type="button" href="scenario1_9_Summary_SIP">I accept - continue</a>
+                <p><a href="scenario1_7_Alterations_SIP">Back</a></p>
+              </div>                           
+            </fieldset>
+           
+            </form>
           
-            <p>
-              <a class="button" href="check_scenario2_3">Continue</a>
-            </p>    
-          </form>
-          <p class="text"><a href="scenario2_0_Start_SIP">Back</a></p>
-
 
  <!-- main content ends -->
-  </div>
 </div>
+</div>
+  </div>
 </main>
 {{/content}}
 
