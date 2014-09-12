@@ -391,6 +391,27 @@ app.get('/SIP/scenario1_7_Alterations_SIP', function (req, res) {
 
     });
 
+               app.get('/SIP/scenario2_2_Check_SIP', function (req, res) {
+      res.render('SIP/scenario2_2_Check_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+                 app.get('/SIP/scenario2_3_Errors_SIP', function (req, res) {
+      res.render('SIP/scenario2_3_Errors_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+  app.get('/SIP/scenario2_4_Errors_SIP', function (req, res) {
+      res.render('SIP/scenario2_4_Errors_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+   
+
 // SIP End of Year Return Scenario 3
 
        app.get('/SIP/scenario3_0_Start_SIP', function (req, res) {
@@ -404,6 +425,70 @@ app.get('/SIP/scenario1_7_Alterations_SIP', function (req, res) {
                 {'assetPath' : assetPath});
 
     });
+
+          app.get('/SIP/scenario3_2_Check_SIP', function (req, res) {
+      res.render('SIP/scenario3_2_Check_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+   app.get('/SIP/scenario3_3_Group_SIP', function (req, res) {
+      res.render('SIP/scenario3_3_Group_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/SIP/scenario3_4_Group_Details_SIP', function (req, res) {
+      res.render('SIP/scenario3_4_Group_Details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SIP/scenario3_5_Group_Edit_SIP', function (req, res) {
+      res.render('SIP/scenario3_5_Group_Edit_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+         
+             app.get('/SIP/scenario3_6_Trustee_Details_SIP', function (req, res) {
+      res.render('SIP/scenario3_6_Trustee_Details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SIP/scenario3_7_Trustee_Edit_SIP', function (req, res) {
+      res.render('SIP/scenario3_7_Trustee_Edit_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+app.get('/SIP/scenario3_8_Alterations_SIP', function (req, res) {
+      res.render('SIP/scenario3_8_Alterations_SIP',
+                {'assetPath' : assetPath});
+
+    });      
+
+                app.get('/SIP/scenario3_9_Alterations_Check_SIP', function (req, res) {
+      res.render('SIP/scenario3_9_Alterations_Check_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+                app.get('/SIP/scenario3_10_Summary_SIP', function (req, res) {
+      res.render('SIP/scenario3_10_Summary_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+             app.get('/SIP/scenario3_11_Confirmation_SIP', function (req, res) {
+      res.render('SIP/scenario3_11_Confirmation_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
 
 
     }
