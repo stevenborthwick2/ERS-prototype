@@ -1,6 +1,6 @@
 {{<layout}}
 
-{{$pageTitle}}Checking Service - HMRC{{/pageTitle}}
+{{$pageTitle}}Submit end of year return{{/pageTitle}}
 {{$afterHeader}}
     <div class="outer-block">
         <div class="inner-block">
@@ -16,23 +16,23 @@
 
 {{$content}}
   {{>hmrc_banner}}
-
+  
 <main id="content" role="main">
-   
-<div class="outer-block">
-  <div class="inner-block">
-  <!-- main content starts -->
-   {{>check_checking}}
-                     <p>
-              <a class="button" href="confirmation_scenario2_4">Check for errors</a>
+   <div class="outer-block">
+   <div class="inner-block">
+       {{>sub_header_SAYE}}
+  {{>alterations}}
+      
+            <p>
+              <a class="button" href="scenario3_7_Alterations_Check_SAYE">Continue</a>
             </p>    
           </form>
-          <p class="text"><a href="select_scheme_scenario2_2">Back</a></p>
+          <p class="text"><a href="scenario3_5_Group_Edit_SAYE">Back</a></p>
 
 
  <!-- main content ends -->
- </div>
   </div>
+</div>
 </main>
 {{/content}}
 

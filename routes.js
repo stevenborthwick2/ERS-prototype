@@ -488,6 +488,161 @@ app.get('/SIP/scenario3_8_Alterations_SIP', function (req, res) {
 
     }); 
 
+    // SIP End of Year Return Scenario 1
+       app.get('/SAYE/scenario1_0_Start_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_0_Start_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/SAYE/scenario1_1_What_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_1_What_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+                          app.get('/SAYE/scenario1_2_Group_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_2_Group_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/SAYE/scenario1_3_Group_Details_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_3_Group_Details_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SAYE/scenario1_4_Group_Edit_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_4_Group_Edit_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+         app.get('/SAYE/scenario1_5_Alterations_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_5_Alterations_SAYE',
+                {'assetPath' : assetPath});
+
+    });      
+
+                app.get('/SAYE/scenario1_6_Alterations_Check_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_6_Alterations_Check_SAYE',
+                {'assetPath' : assetPath});
+
+    }); 
+
+                app.get('/SAYE/scenario1_7_Summary_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_7_Summary_SAYE',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+             app.get('/SAYE/scenario1_8_Confirmation_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_8_Confirmation_SAYE',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+// SIP End of Year Return Scenario 2
+
+       app.get('/SAYE/scenario2_0_Start_SAYE', function (req, res) {
+      res.render('SAYE/scenario2_0_Start_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/SAYE/scenario2_1_What_SAYE', function (req, res) {
+      res.render('SAYE/scenario2_1_What_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+               app.get('/SAYE/scenario2_2_Check_SAYE', function (req, res) {
+      res.render('SAYE/scenario2_2_Check_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+                 app.get('/SAYE/scenario2_3_Errors_SAYE', function (req, res) {
+      res.render('SAYE/scenario2_3_Errors_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+  app.get('/SAYE/scenario2_4_Errors_SAYE', function (req, res) {
+      res.render('SAYE/scenario2_4_Errors_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+
+   
+
+// SIP End of Year Return Scenario 3
+
+       app.get('/SAYE/scenario3_0_Start_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_0_Start_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/SAYE/scenario3_1_What_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_1_What_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/SAYE/scenario3_2_Check_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_2_Check_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+   app.get('/SAYE/scenario3_3_Group_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_3_Group_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/SAYE/scenario3_4_Group_Details_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_4_Group_Details_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SAYE/scenario3_5_Group_Edit_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_5_Group_Edit_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+         
+             app.get('/SAYE/scenario3_6_Alterations_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_6_Alterations_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SAYE/scenario3_7_Alterations_Check_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_7_Alterations_Check_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+app.get('/SAYE/scenario3_8_Summary_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_8_Summary_SAYE',
+                {'assetPath' : assetPath});
+
+    });      
+
+                app.get('/SAYE/scenario3_9_Confirmation_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_9_Confirmation_SAYE',
+                {'assetPath' : assetPath});
+
+    }); 
+
 
 
 
