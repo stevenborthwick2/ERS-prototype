@@ -198,6 +198,11 @@ module.exports = {
                 {'assetPath' : assetPath});   
 
                  });
+          app.get('/checking_service/errors_scenario1_5', function (req, res) {
+      res.render('checking_service/errors_scenario1_5',
+                {'assetPath' : assetPath});   
+
+                 });
 
       // Checking Scenario 2
 
