@@ -198,6 +198,7 @@ module.exports = {
                 {'assetPath' : assetPath});   
 
                  });
+        
           app.get('/checking_service/errors_scenario1_5', function (req, res) {
       res.render('checking_service/errors_scenario1_5',
                 {'assetPath' : assetPath});   
@@ -237,7 +238,7 @@ module.exports = {
 
        });
 
-                 // declaration test
+                 // user testing
      
        app.get('/user_testing/user_testing', function (req, res) {
       res.render('user_testing/user_testing',
@@ -493,7 +494,8 @@ app.get('/SIP/scenario3_8_Alterations_SIP', function (req, res) {
 
     }); 
 
-    // SIP End of Year Return Scenario 1
+    // SAYE End of Year Return Scenario 1
+
        app.get('/SAYE/scenario1_0_Start_SAYE', function (req, res) {
       res.render('SAYE/scenario1_0_Start_SAYE',
                 {'assetPath' : assetPath});
@@ -550,7 +552,7 @@ app.get('/SIP/scenario3_8_Alterations_SIP', function (req, res) {
     }); 
 
 
-// SIP End of Year Return Scenario 2
+// SAYE End of Year Return Scenario 2
 
        app.get('/SAYE/scenario2_0_Start_SAYE', function (req, res) {
       res.render('SAYE/scenario2_0_Start_SAYE',
@@ -585,7 +587,7 @@ app.get('/SIP/scenario3_8_Alterations_SIP', function (req, res) {
 
    
 
-// SIP End of Year Return Scenario 3
+// SAYE End of Year Return Scenario 3
 
        app.get('/SAYE/scenario3_0_Start_SAYE', function (req, res) {
       res.render('SAYE/scenario3_0_Start_SAYE',
@@ -649,7 +651,277 @@ app.get('/SAYE/scenario3_8_Summary_SAYE', function (req, res) {
     }); 
 
 
+ // OTHER End of Year Return Scenario 1
+       app.get('/OTHER/scenario1_0_Start_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_0_Start_OTHER',
+                {'assetPath' : assetPath});
 
+    });
+
+              app.get('/OTHER/scenario1_1_What_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_1_What_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+                          app.get('/OTHER/scenario1_2_Group_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_2_Group_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/OTHER/scenario1_3_Group_Details_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_3_Group_Details_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/OTHER/scenario1_4_Group_Edit_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_4_Group_Edit_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+    
+
+                app.get('/OTHER/scenario1_5_Summary_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_5_Summary_OTHER',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+             app.get('/OTHER/scenario1_6_Confirmation_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_6_Confirmation_OTHER',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+// OTHER End of Year Return Scenario 2
+
+       app.get('/OTHER/scenario2_0_Start_OTHER', function (req, res) {
+      res.render('OTHER/scenario2_0_Start_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/OTHER/scenario2_1_What_OTHER', function (req, res) {
+      res.render('OTHER/scenario2_1_What_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+               app.get('/OTHER/scenario2_2_Check_OTHER', function (req, res) {
+      res.render('OTHER/scenario2_2_Check_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+                 app.get('/OTHER/scenario2_3_Errors_OTHER', function (req, res) {
+      res.render('OTHER/scenario2_3_Errors_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+  app.get('/OTHER/scenario2_4_Errors_OTHER', function (req, res) {
+      res.render('OTHER/scenario2_4_Errors_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+
+   
+
+// OTHER End of Year Return Scenario 3
+
+       app.get('/OTHER/scenario3_0_Start_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_0_Start_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/OTHER/scenario3_1_What_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_1_What_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/OTHER/scenario3_2_Check_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_2_Check_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+   app.get('/OTHER/scenario3_3_Group_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_3_Group_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/OTHER/scenario3_4_Group_Details_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_4_Group_Details_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/OTHER/scenario3_5_Group_Edit_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_5_Group_Edit_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+         
+
+
+app.get('/OTHER/scenario3_6_Summary_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_6_Summary_OTHER',
+                {'assetPath' : assetPath});
+
+    });      
+
+                app.get('/OTHER/scenario3_7_Confirmation_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_7_Confirmation_OTHER',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+  // EMI End of Year Return Scenario 1
+  
+       app.get('/EMI/scenario1_0_Start_EMI', function (req, res) {
+      res.render('EMI/scenario1_0_Start_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/EMI/scenario1_1_What_EMI', function (req, res) {
+      res.render('EMI/scenario1_1_What_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+                          app.get('/EMI/scenario1_2_Group_EMI', function (req, res) {
+      res.render('EMI/scenario1_2_Group_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/EMI/scenario1_3_Group_Details_EMI', function (req, res) {
+      res.render('EMI/scenario1_3_Group_Details_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/EMI/scenario1_4_Group_Edit_EMI', function (req, res) {
+      res.render('EMI/scenario1_4_Group_Edit_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+    
+
+                app.get('/EMI/scenario1_5_Summary_EMI', function (req, res) {
+      res.render('EMI/scenario1_5_Summary_EMI',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+             app.get('/EMI/scenario1_6_Confirmation_EMI', function (req, res) {
+      res.render('EMI/scenario1_6_Confirmation_EMI',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+// EMI End of Year Return Scenario 2
+
+       app.get('/EMI/scenario2_0_Start_EMI', function (req, res) {
+      res.render('EMI/scenario2_0_Start_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/EMI/scenario2_1_What_EMI', function (req, res) {
+      res.render('EMI/scenario2_1_What_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+               app.get('/EMI/scenario2_2_Check_EMI', function (req, res) {
+      res.render('EMI/scenario2_2_Check_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+                 app.get('/EMI/scenario2_3_Errors_EMI', function (req, res) {
+      res.render('EMI/scenario2_3_Errors_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+  app.get('/EMI/scenario2_4_Errors_EMI', function (req, res) {
+      res.render('EMI/scenario2_4_Errors_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+
+   
+
+// EMI End of Year Return Scenario 3
+
+       app.get('/EMI/scenario3_0_Start_EMI', function (req, res) {
+      res.render('EMI/scenario3_0_Start_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/EMI/scenario3_1_What_EMI', function (req, res) {
+      res.render('EMI/scenario3_1_What_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/EMI/scenario3_2_Check_EMI', function (req, res) {
+      res.render('EMI/scenario3_2_Check_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+   app.get('/EMI/scenario3_3_Group_EMI', function (req, res) {
+      res.render('EMI/scenario3_3_Group_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/EMI/scenario3_4_Group_Details_EMI', function (req, res) {
+      res.render('EMI/scenario3_4_Group_Details_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/EMI/scenario3_5_Group_Edit_EMI', function (req, res) {
+      res.render('EMI/scenario3_5_Group_Edit_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+         
+
+
+app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
+      res.render('EMI/scenario3_6_Summary_EMI',
+                {'assetPath' : assetPath});
+
+    });      
+
+                app.get('/EMI/scenario3_7_Confirmation_EMI', function (req, res) {
+      res.render('EMI/scenario3_7_Confirmation_EMI',
+                {'assetPath' : assetPath});
+
+    }); 
 
     }
 };
