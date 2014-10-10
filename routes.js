@@ -958,7 +958,20 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
       res.render('TCR/summary_simple',
                 {'assetPath' : assetPath});
 
+    });
+
+     app.get('/TCR/new_child', function (req, res) {
+      res.render('TCR/new_child',
+                {'assetPath' : assetPath});
+
     }); 
+  
+  app.get('/TCR/new_child_summary', function (req, res) {
+      res.render('TCR/new_child_summary',
+                {'assetPath' : assetPath});
+
+    }); 
+
 
 
 
