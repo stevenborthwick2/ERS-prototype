@@ -76,3 +76,109 @@ background-repeat: no-repeat;
 height: 80px; 
 width: 50px
 }
+
+//TCR
+
+.main-nav {
+  border-bottom: 1px solid #ccc;
+  margin: 2em 0;
+}
+.main-nav .tab {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 19px;
+  position: relative;
+}
+.main-nav .tab.selected {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  padding: 12px 19px 13px 19px;
+  background: #fff;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: -1px;
+  line-height: 28px;
+}
+.main-nav .tab .count {
+  display: inline-block;
+  background: #b10e1e;
+  color: #fff;
+  padding: 7px 0.5em 5px;
+  margin-left: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 16px;
+}
+
+    .TCR td,
+    th {
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid #BFC1C3;
+        padding: 0.73684em 1.05263em 0.52632em 0px;
+        font-weight: 400;
+    }
+
+    .TCR th {
+        width: 70%;
+    }
+
+    .TCR {
+        width: 100%;
+    }
+
+    .TCR {
+        margin-bottom: 3em;
+    }
+
+    .total-row td,
+    .total-row th {
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        font-weight: 800;
+    }
+
+    .side-nav {
+        margin-top: 45px;
+    }
+    .side-nav li {
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 0;
+        width: 90%;
+    }
+    .side-nav a {
+        padding: 8px 0 8px 5px;
+        text-decoration: none;
+        font-size: 19px;
+        display: block;
+    }
+    .side-nav a:hover {
+        text-decoration: underline;
+    }
+    .side-nav .active {
+        color: #000;
+        background: #F8F8F8;
+    }
+    .side-nav .active:hover {
+        text-decoration: none;
+    }
+    @media (max-width: 640px) {
+        .page-header {
+            padding: 0px 15px;
+        }
+        .side-nav li {
+            width: 100%;
+        }
+    }
+
+    .details-block
+    {
+    display: block;
+    
+
+    }
+
+    .service-info__help {
+color: #0b0c0c;
+}
+    

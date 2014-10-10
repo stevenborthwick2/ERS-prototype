@@ -923,7 +923,44 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
 
     }); 
 
-  
+//TCR
+                             app.get('/TCR/main_page', function (req, res) {
+      res.render('TCR/main_page',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+                       app.get('/TCR/notifications', function (req, res) {
+      res.render('TCR/notifications',
+                {'assetPath' : assetPath});
+
+    }); 
+                  app.get('/TCR/children', function (req, res) {
+      res.render('TCR/children',
+                {'assetPath' : assetPath});
+
+    }); 
+
+                                app.get('/TCR/children_amended', function (req, res) {
+      res.render('TCR/children_amended',
+                {'assetPath' : assetPath});
+
+    }); 
+
+                             app.get('/TCR/summary', function (req, res) {
+      res.render('TCR/summary',
+                {'assetPath' : assetPath});
+
+    }); 
+
+ app.get('/TCR/summary_simple', function (req, res) {
+      res.render('TCR/summary_simple',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
 
     }
 };
