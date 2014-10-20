@@ -98,8 +98,16 @@ module.exports = {
 
     });
 
-        app.get('/errors_scenario2_4', function (req, res) {
+ 
+
+           app.get('/errors_scenario2_4', function (req, res) {
       res.render('errors_scenario2_4',
+                {'assetPath' : assetPath});
+
+    });
+
+       app.get('/scenario2_5_Errors_CSOP', function (req, res) {
+      res.render('scenario2_5_Errors_CSOP',
                 {'assetPath' : assetPath});
 
     });
@@ -237,6 +245,21 @@ module.exports = {
                 {'assetPath' : assetPath});
 
        });
+
+                 // Checking Scenario 3
+
+   
+               app.get('/checking_service/checking_start_scenario3', function (req, res) {
+      res.render('checking_service/checking_start_scenario3',
+                {'assetPath' : assetPath});
+
+       });
+                           app.get('/checking_service/templates', function (req, res) {
+      res.render('checking_service/templates',
+                {'assetPath' : assetPath});
+
+       });
+
 
                  // user testing
      
@@ -971,6 +994,13 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
                 {'assetPath' : assetPath});
 
     }); 
+
+  app.get('/TCR/main_pagev2', function (req, res) {
+      res.render('TCR/main_pagev2',
+                {'assetPath' : assetPath});
+
+    }); 
+
 
 
 
