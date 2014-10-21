@@ -260,6 +260,19 @@ module.exports = {
 
        });
 
+      app.get('/checking_service/what_scenario3_2_test', function (req, res) {
+      res.render('checking_service/what_scenario3_2_test',
+                {'assetPath' : assetPath});
+
+       });
+      
+      app.get('/checking_service/checking_scenario3_3', function (req, res) {
+      res.render('checking_service/checking_scenario3_3',
+                {'assetPath' : assetPath});
+
+       });
+
+
 
                  // user testing
      
