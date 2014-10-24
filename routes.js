@@ -1050,5 +1050,11 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
 
     }); 
 
+   app.get('/TCR/summary_simplev4', function (req, res) {
+      res.render('TCR/summary_simplev4',
+                {'assetPath' : assetPath});
+
+    });
+
     }
 };
