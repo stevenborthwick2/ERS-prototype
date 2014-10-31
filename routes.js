@@ -272,6 +272,45 @@ module.exports = {
 
        });
 
+// Checking Multiple
+
+   
+               app.get('/checking_service/checking_multiple1', function (req, res) {
+      res.render('checking_service/checking_multiple1',
+                {'assetPath' : assetPath});
+
+       });
+            
+            app.get('/checking_service/checking_multiple2', function (req, res) {
+      res.render('checking_service/checking_multiple2',
+                {'assetPath' : assetPath});
+
+       });
+
+                   app.get('/checking_service/checking_multiple3', function (req, res) {
+      res.render('checking_service/checking_multiple3',
+                {'assetPath' : assetPath});
+
+       });
+
+
+       app.get('/checking_service/checking_multiple4', function (req, res) {
+      res.render('checking_service/checking_multiple4',
+                {'assetPath' : assetPath});
+
+       });
+
+           app.get('/checking_service/checking_multiple5', function (req, res) {
+      res.render('checking_service/checking_multiple5',
+                {'assetPath' : assetPath});
+
+       });
+
+                 app.get('/checking_service/checking_multiple6', function (req, res) {
+      res.render('checking_service/checking_multiple6',
+                {'assetPath' : assetPath});
+
+       });
 
 
                  // user testing
@@ -1046,6 +1085,42 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
 
   app.get('/TCR/main_pagev4_amended', function (req, res) {
       res.render('TCR/main_pagev4_amended',
+                {'assetPath' : assetPath});
+
+    }); 
+
+   app.get('/TCR/summary_simplev4', function (req, res) {
+      res.render('TCR/summary_simplev4',
+                {'assetPath' : assetPath});
+
+    });
+
+    app.get('/TCR/main_pagev5', function (req, res) {
+      res.render('TCR/main_pagev5',
+                {'assetPath' : assetPath});
+
+    }); 
+
+ app.get('/TCR/childrenv5', function (req, res) {
+      res.render('TCR/childrenv5',
+                {'assetPath' : assetPath});
+
+    }); 
+
+ app.get('/TCR/new_childv5', function (req, res) {
+      res.render('TCR/new_childv5',
+                {'assetPath' : assetPath});
+
+    }); 
+
+ app.get('/TCR/new_child_summaryv5', function (req, res) {
+      res.render('TCR/new_child_summaryv5',
+                {'assetPath' : assetPath});
+
+    }); 
+
+  app.get('/TCR/another_change', function (req, res) {
+      res.render('TCR/another_change',
                 {'assetPath' : assetPath});
 
     }); 
