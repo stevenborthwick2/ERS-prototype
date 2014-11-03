@@ -275,7 +275,13 @@ module.exports = {
 // Checking Multiple
 
    
-               app.get('/checking_service/checking_multiple1', function (req, res) {
+               app.get('/checking_service/checking_multiple1a', function (req, res) {
+      res.render('checking_service/checking_multiple1a',
+                {'assetPath' : assetPath});
+
+       });
+
+                            app.get('/checking_service/checking_multiple1', function (req, res) {
       res.render('checking_service/checking_multiple1',
                 {'assetPath' : assetPath});
 
