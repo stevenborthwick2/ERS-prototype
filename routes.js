@@ -1023,6 +1023,12 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
 
     }); 
 
+       app.get('/TCR/income', function (req, res) {
+      res.render('TCR/income',
+                {'assetPath' : assetPath});
+
+    });
+
                                 app.get('/TCR/children_amended', function (req, res) {
       res.render('TCR/children_amended',
                 {'assetPath' : assetPath});
