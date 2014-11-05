@@ -90,21 +90,38 @@
 
 <script>
 
+function GetIEVersion() {  
+  var sAgent = window.navigator.userAgent;  
+  var Idx = sAgent.indexOf("MSIE");  
+  // If IE, return version number.  
+  if (Idx > 0)   
+    return parseInt(sAgent.substring(Idx+ 5, sAgent.indexOf(".", Idx)));     
+    // If IE 11 then look for Updated user agent string.  
+  else if (!!navigator.userAgent.match(/Trident\/7\./))   
+    return 11;  
+  else 
+    return 0; //It is not IE  
+}  
+
+
+
+
+
 $("#choose-file-button").click(function(e) {
   $("#input-file-name").click();
 });
 
 $("#input-file-name").change(function(e) {
-  $("#fileDiv").show();
-//  var fileName = $("#input-file-name").val();
-//  $("#fileTable").append("<tr><td>"+fileName+"</td><td>Ready to upload</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>");
-  var numberOfFiles = $("#input-file-name").get(0).files.length;
-  //alert("length:"+numberOfFiles);
-  for (i=0; i<numberOfFiles; i++) {
-    $("#fileTable").append("<tr><td>"+$("#input-file-name").get(0).files.item(i).name+"</td><td>Ready to upload</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>");   
-  }
- // $("#fileTable").append("<tr><td>"+fileName+"</td><td>Ready to upload</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>");
-
+      $("#fileDiv").show();
+      if ((GetIEVersion() > 0) && parseInt($.browser.version, 10) > 9){
+                      var numberOfFiles = $("#input-file-name").get(0).files.length;
+                      for (i=0; i<numberOfFiles; i++) {
+                                      $("#fileTable").append("<tr><td>"+$("#input-file-name").get(0).files.item(i).name+"</td><td>Ready to upload</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>");  
+                      }             
+      } else { 
+                      var fileName = $("#input-file-name").val();
+                      $("#fileTable").append("<tr><td>"+fileName+"</td><td>Ready to upload</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>");                                             
+      }
 });
 
 $("#fileTable").on('click', '#removeFile', function() {
