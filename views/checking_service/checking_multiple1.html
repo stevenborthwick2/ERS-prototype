@@ -112,17 +112,19 @@ $("#choose-file-button").click(function(e) {
 });
 
 $("#input-file-name").change(function(e) {
-      $("#fileDiv").show();
-      if ((GetIEVersion() > 0) && parseInt($.browser.version, 10) > 9){
-                      var numberOfFiles = $("#input-file-name").get(0).files.length;
-                      for (i=0; i<numberOfFiles; i++) {
-                                      $("#fileTable").append("<tr><td>"+$("#input-file-name").get(0).files.item(i).name+"</td><td>Ready to upload</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>");  
-                      }             
-      } else { 
-                      var fileName = $("#input-file-name").val();
-                      $("#fileTable").append("<tr><td>"+fileName+"</td><td>Ready to upload</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>");                                             
-      }
-});
+    $("#fileDiv").show();       
+    // Is IE then check version
+    if ((GetIEVersion() > 9) || (GetIEVersion() == 0)) {
+        var numberOfFiles = $("#input-file-name").get(0).files.length;
+        for (i=0; i<numberOfFiles; i++) {
+        $("#fileTable").append("<tr><td>"+$("#input-file-name").get(0).files.item(i).name+"</td><td>Ready to upload</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>"); 
+        }            
+    } else {
+        // Earlier versions of IE (<9)
+        var fileName = $("#input-file-name").val();
+        $("#fileTable").append("<tr><td>"+fileName+"</td><td>Ready to upload</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>");                                            
+    }
+});        
 
 $("#fileTable").on('click', '#removeFile', function() {
   $(this).parent().parent().remove();
