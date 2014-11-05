@@ -293,6 +293,12 @@ module.exports = {
 
        });
 
+             app.get('/checking_service/errors_multiple', function (req, res) {
+      res.render('checking_service/errors_multiple',
+                {'assetPath' : assetPath});
+
+       });
+
                    app.get('/checking_service/checking_multiple3', function (req, res) {
       res.render('checking_service/checking_multiple3',
                 {'assetPath' : assetPath});
