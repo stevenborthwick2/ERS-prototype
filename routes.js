@@ -1149,5 +1149,30 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
 
     });
 
+      app.get('/TCR/main_pagev6', function (req, res) {
+      res.render('TCR/main_pagev6',
+                {'assetPath' : assetPath});
+
+    });
+
+      app.get('/TCR/childrenv6', function (req, res) {
+      res.render('TCR/childrenv6',
+                {'assetPath' : assetPath});
+
+    });
+
+         app.get('/TCR/main_pagev7', function (req, res) {
+      res.render('TCR/main_pagev7',
+                {'assetPath' : assetPath});
+
+    });
+
+    app.get('/TCR/childrenv7', function (req, res) {
+      res.render('TCR/childrenv7',
+                {'assetPath' : assetPath});
+
+    });
+
+
     }
 };
