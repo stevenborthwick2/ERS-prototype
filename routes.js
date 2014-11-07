@@ -1173,6 +1173,12 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
 
     });
 
+        app.get('/TCR/personal_detailsv7', function (req, res) {
+      res.render('TCR/personal_detailsv7',
+                {'assetPath' : assetPath});
+
+    });
+
 
     }
 };
