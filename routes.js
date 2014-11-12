@@ -1238,6 +1238,11 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
 
     }); 
 
+                            app.get('/user_testing/user_testing3', function (req, res) {
+      res.render('user_testing/user_testing3',
+                {'assetPath' : assetPath});
+
+    }); 
 
     }
 };
