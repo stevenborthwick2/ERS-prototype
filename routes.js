@@ -1232,5 +1232,12 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
 
     }); 
 
+                              app.get('/user_testing/user_testing2', function (req, res) {
+      res.render('user_testing/user_testing2',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
     }
 };
