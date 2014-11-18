@@ -1232,17 +1232,61 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
 
     }); 
 
-                              app.get('/user_testing/user_testing2', function (req, res) {
+                app.get('/user_testing/user_testing2', function (req, res) {
       res.render('user_testing/user_testing2',
                 {'assetPath' : assetPath});
 
     }); 
 
-                            app.get('/user_testing/user_testing3', function (req, res) {
+                app.get('/user_testing/user_testing3', function (req, res) {
       res.render('user_testing/user_testing3',
                 {'assetPath' : assetPath});
 
     }); 
+
+
+                app.get('/user_testing/user_testing4', function (req, res) {
+      res.render('user_testing/user_testing4',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+                app.get('/group_plan/CRN_start', function (req, res) {
+      res.render('group_plan/CRN_start',
+                {'assetPath' : assetPath});
+
+
+    }); 
+
+
+                app.get('/group_plan/postcode_start', function (req, res) {
+      res.render('group_plan/postcode_start',
+                {'assetPath' : assetPath});
+
+
+    }); 
+
+
+                app.get('/group_plan/minimalv3_start', function (req, res) {
+      res.render('group_plan/minimalv3_start',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+                app.get('/group_plan/minimal_start', function (req, res) {
+      res.render('group_plan/minimal_start',
+                {'assetPath' : assetPath});
+
+    }); 
+
+                app.get('/group_plan/minimalv2_pages_start', function (req, res) {
+      res.render('group_plan/minimalv2_pages_start',
+                {'assetPath' : assetPath});
+
+    }); 
+
 
     }
 };
