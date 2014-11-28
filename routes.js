@@ -1287,6 +1287,66 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
 
     }); 
 
+                 app.get('/checking_service/multiple_upload1', function (req, res) {
+      res.render('checking_service/multiple_upload1',
+                {'assetPath' : assetPath});
+
+       });
+
+                app.get('/checking_service/multiple_upload2', function (req, res) {
+      res.render('checking_service/multiple_upload2',
+                {'assetPath' : assetPath});
+
+       });
+
+                app.get('/checking_service/multiple_upload3', function (req, res) {
+      res.render('checking_service/multiple_upload3',
+                {'assetPath' : assetPath});
+
+       });
+
+                app.get('/checking_service/multiple_upload2_error', function (req, res) {
+      res.render('checking_service/multiple_upload2_error',
+                {'assetPath' : assetPath});
+
+       });
+
+                app.get('/checking_service/nonjs_upload1', function (req, res) {
+      res.render('checking_service/nonjs_upload1',
+                {'assetPath' : assetPath});
+
+       });
+
+
+                app.get('/checking_service/nonjs_upload2', function (req, res) {
+      res.render('checking_service/nonjs_upload2',
+                {'assetPath' : assetPath});
+
+       });
+
+                app.get('/checking_service/nonjs_upload3', function (req, res) {
+      res.render('checking_service/nonjs_upload3',
+                {'assetPath' : assetPath});
+
+       });
+
+                app.get('/checking_service/nonjs_upload_error_report', function (req, res) {
+      res.render('checking_service/nonjs_upload_error_report',
+                {'assetPath' : assetPath});
+
+       });
+
+
+                app.get('/checking_service/nonjs_upload2_error', function (req, res) {
+      res.render('checking_service/nonjs_upload2_error',
+                {'assetPath' : assetPath});
+
+       });
+
+
+                
+
+
 
     }
 };
