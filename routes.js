@@ -1343,6 +1343,13 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
 
        });
 
+                app.get('/group_company_details', function (req, res) {
+      res.render('group_company_details',
+                {'assetPath' : assetPath});
+
+       });
+
+
 
                 
 
