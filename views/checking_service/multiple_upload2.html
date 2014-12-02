@@ -117,12 +117,12 @@ $("#input-file-name").change(function(e) {
     if ((GetIEVersion() > 9) || (GetIEVersion() == 0)) {
         var numberOfFiles = $("#input-file-name").get(0).files.length;
         for (i=0; i<numberOfFiles; i++) {
-        $("#fileTable").append("<tr><td>"+$("#input-file-name").get(0).files.item(i).name+"</td><td>Not yet uploaded</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>"); 
+        $("#fileTable").append("<tr><td>"+$("#input-file-name").get(0).files.item(i).name+"</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>"); 
         }            
     } else {
         // Earlier versions of IE (<9)
         var fileName = $("#input-file-name").val();
-        $("#fileTable").append("<tr><td>"+fileName+"</td><td>Not yet uploaded</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>");                                            
+        $("#fileTable").append("<tr><td>"+fileName+"</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>");                                            
     }
 });        
 
