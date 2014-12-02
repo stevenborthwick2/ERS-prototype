@@ -1343,11 +1343,28 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
 
        });
 
-                app.get('/group_company_details', function (req, res) {
-      res.render('group_company_details',
+                
+
+        app.get('/checking_service/js_uploadnew_error', function (req, res) {
+      res.render('checking_service/js_uploadnew_error',
                 {'assetPath' : assetPath});
 
        });
+
+
+        app.get('/checking_service/group_company_details', function (req, res) {
+      res.render('checking_service/group_company_details',
+                {'assetPath' : assetPath});
+
+       });
+
+
+         app.get('/checking_service/error_messaging', function (req, res) {
+      res.render('checking_service/error_messaging',
+                {'assetPath' : assetPath});
+
+       });
+
 
 
 
