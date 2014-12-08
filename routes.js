@@ -1352,8 +1352,8 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
        });
 
 
-        app.get('/company_details/company_details', function (req, res) {
-      res.render('company_details/company_details',
+        app.get('/checking_service/new_company_details', function (req, res) {
+      res.render('checking_service/new_company_details',
                 {'assetPath' : assetPath});
 
        });
