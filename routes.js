@@ -1365,6 +1365,11 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
 
        });
 
+app.get('/axure_group_plans/index', function (req, res) {
+      res.render('axure_group_plans/index',
+                {'assetPath' : assetPath});
+
+       });
 
 
 
