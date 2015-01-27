@@ -413,6 +413,59 @@ app.get('/user_testing/logout1', function (req, res) {
 
     });
 
+
+                      app.get('/SIP/scenario1_14_csv_ods_SIP', function (req, res) {
+      res.render('SIP/scenario1_14_csv_ods_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+                       app.get('/SIP/scenario1_15_ods_SIP', function (req, res) {
+      res.render('SIP/scenario1_15_ods_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+                       app.get('/SIP/scenario1_16_group_company_summary', function (req, res) {
+      res.render('SIP/scenario1_16_group_company_summary',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+                       
+
+
+                      
+
+
+
+              
+
+              app.get('/SIP/scenario1_12_manual_csv_SIP', function (req, res) {
+      res.render('SIP/scenario1_12_manual_csv_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+              app.get('/SIP/scenario1_13_company_details_SIP', function (req, res) {
+      res.render('SIP/scenario1_13_company_details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+             
+
+              app.get('/SIP/test', function (req, res) {
+      res.render('SIP/test',
+                {'assetPath' : assetPath});
+
+    });
+
                           app.get('/SIP/scenario1_2_Group_SIP', function (req, res) {
       res.render('SIP/scenario1_2_Group_SIP',
                 {'assetPath' : assetPath});
@@ -513,6 +566,12 @@ app.get('/SIP/scenario1_7_Alterations_SIP', function (req, res) {
 
     });
 
+       app.get('/SIP/scenario1_11_company_SIP', function (req, res) {
+      res.render('SIP/scenario1_11_company_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
               app.get('/SIP/scenario3_1_What_SIP', function (req, res) {
       res.render('SIP/scenario3_1_What_SIP',
                 {'assetPath' : assetPath});
@@ -580,6 +639,21 @@ app.get('/SIP/scenario3_8_Alterations_SIP', function (req, res) {
                 {'assetPath' : assetPath});
 
     }); 
+
+
+app.get('/SIP/scenario1_17_upload_CSV', function (req, res) {
+      res.render('SIP/scenario1_17_upload_CSV',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+
+
+
+
+
+
 
     // SAYE End of Year Return Scenario 1
 
@@ -1365,11 +1439,719 @@ app.get('/EMI/scenario3_6_Summary_EMI', function (req, res) {
 
        });
 
-app.get('/axure_group_plans/start', function (req, res) {
-      res.render('axure_group_plans/start',
+app.get('/group_plan/start', function (req, res) {
+      res.render('group_plan/start',
                 {'assetPath' : assetPath});
 
        });
+
+app.get('/group_plan/add_organiser_details', function (req, res) {
+      res.render('group_plan/add_organiser_details',
+                {'assetPath' : assetPath});
+
+       });
+
+
+app.get('/group_plan/reportable_events', function (req, res) {
+      res.render('group_plan/reportable_events',
+                {'assetPath' : assetPath});
+
+       });
+
+app.get('/group_plan/select_sheet_type', function (req, res) {
+      res.render('group_plan/select_sheet_type',
+                {'assetPath' : assetPath});
+
+       });
+
+app.get('/group_plan/select_sheet_type', function (req, res) {
+      res.render('group_plan/select_sheet_type',
+                {'assetPath' : assetPath});
+
+       });
+
+
+
+// SIP End of Year Return Scenario 1
+       app.get('/SIP/scenario1_0_Start_SIP', function (req, res) {
+      res.render('SIP/scenario1_0_Start_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/SIP/scenario1_1_What_SIP', function (req, res) {
+      res.render('SIP/scenario1_1_What_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+                      app.get('/SIP/scenario1_14_csv_ods_SIP', function (req, res) {
+      res.render('SIP/scenario1_14_csv_ods_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+                       app.get('/SIP/scenario1_15_ods_SIP', function (req, res) {
+      res.render('SIP/scenario1_15_ods_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+                       app.get('/SIP/scenario1_16_group_company_summary', function (req, res) {
+      res.render('SIP/scenario1_16_group_company_summary',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+                       
+
+
+           
+
+              app.get('/SIP/scenario1_12_manual_csv_SIP', function (req, res) {
+      res.render('SIP/scenario1_12_manual_csv_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+              app.get('/SIP/scenario1_13_company_details_SIP', function (req, res) {
+      res.render('SIP/scenario1_13_company_details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+             
+
+              app.get('/SIP/test', function (req, res) {
+      res.render('SIP/test',
+                {'assetPath' : assetPath});
+
+    });
+
+                          app.get('/SIP/scenario1_2_Group_SIP', function (req, res) {
+      res.render('SIP/scenario1_2_Group_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/SIP/scenario1_3_Group_Details_SIP', function (req, res) {
+      res.render('SIP/scenario1_3_Group_Details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SIP/scenario1_4_Group_Edit_SIP', function (req, res) {
+      res.render('SIP/scenario1_4_Group_Edit_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+         
+             app.get('/SIP/scenario1_5_Trustee_Details_SIP', function (req, res) {
+      res.render('SIP/scenario1_5_Trustee_Details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SIP/scenario1_6_Trustee_Edit_SIP', function (req, res) {
+      res.render('SIP/scenario1_6_Trustee_Edit_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+app.get('/SIP/scenario1_7_Alterations_SIP', function (req, res) {
+      res.render('SIP/scenario1_7_Alterations_SIP',
+                {'assetPath' : assetPath});
+
+    });      
+
+                app.get('/SIP/scenario1_8_Alterations_Check_SIP', function (req, res) {
+      res.render('SIP/scenario1_8_Alterations_Check_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+                app.get('/SIP/scenario1_9_Summary_SIP', function (req, res) {
+      res.render('SIP/scenario1_9_Summary_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+             app.get('/SIP/scenario1_10_Confirmation_SIP', function (req, res) {
+      res.render('SIP/scenario1_10_Confirmation_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+// SIP End of Year Return Scenario 2
+
+       app.get('/SIP/scenario2_0_Start_SIP', function (req, res) {
+      res.render('SIP/scenario2_0_Start_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/SIP/scenario2_1_What_SIP', function (req, res) {
+      res.render('SIP/scenario2_1_What_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+               app.get('/SIP/scenario2_2_Check_SIP', function (req, res) {
+      res.render('SIP/scenario2_2_Check_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+                 app.get('/SIP/scenario2_3_Errors_SIP', function (req, res) {
+      res.render('SIP/scenario2_3_Errors_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+  app.get('/SIP/scenario2_4_Errors_SIP', function (req, res) {
+      res.render('SIP/scenario2_4_Errors_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+   
+
+// CSOP End of Year Return Scenario 3
+
+       app.get('/CSOP/scenario1_0_Start_CSOP', function (req, res) {
+      res.render('CSOP/scenario1_0_Start_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+       app.get('/CSOP/CSOP_errors_scenario2_4', function (req, res) {
+      res.render('CSOP/CSOP_errors_scenario2_4',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/CSOP/CSOP_errors_scenario2_4', function (req, res) {
+      res.render('CSOP/CSOP_errors_scenario2_4',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+        app.get('/CSOP/scenario1_0_Start_CSOP_ERRORS', function (req, res) {
+      res.render('CSOP/scenario1_0_Start_CSOP_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+        app.get('/CSOP/scenario1_13_company_details_CSOP', function (req, res) {
+      res.render('CSOP/scenario1_13_company_details_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+        app.get('/CSOP/scenario1_16_CSOP_company_summary', function (req, res) {
+      res.render('CSOP/scenario1_16_CSOP_company_summary',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/CSOP/scenario1_17_upload_CSOP_CSV', function (req, res) {
+      res.render('CSOP/scenario1_17_upload_CSOP_CSV',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/CSOP/scenario1_1_What_CSOP', function (req, res) {
+      res.render('CSOP/scenario1_1_What_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+       app.get('/CSOP/scenario1_1_What_CSOP_ERRORS', function (req, res) {
+      res.render('CSOP/scenario1_1_What_CSOP_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/CSOP/scenario1_18_upload_CSOP_CSV', function (req, res) {
+      res.render('CSOP/scenario1_18_upload_CSOP_CSV',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/CSOP/scenario1_18_upload_CSOP_CSV_ERRORS', function (req, res) {
+      res.render('CSOP/scenario1_18_upload_CSOP_CSV_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/CSOP/scenario1_11_company_CSOP', function (req, res) {
+      res.render('CSOP/scenario1_11_company_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/CSOP/scenario3_1_What_CSOP', function (req, res) {
+      res.render('CSOP/scenario3_1_What_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/CSOP/scenario3_2_Check_CSOP', function (req, res) {
+      res.render('CSOP/scenario3_2_Check_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+   app.get('/CSOP/scenario3_3_Group_CSOP', function (req, res) {
+      res.render('CSOP/scenario3_3_Group_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/CSOP/scenario3_4_Group_Details_CSOP', function (req, res) {
+      res.render('CSOP/scenario3_4_Group_Details_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/CSOP/scenario3_5_Group_Edit_CSOP', function (req, res) {
+      res.render('CSOP/scenario3_5_Group_Edit_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+         
+             app.get('/CSOP/scenario3_6_Trustee_Details_CSOP', function (req, res) {
+      res.render('CSOP/scenario3_6_Trustee_Details_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/CSOP/scenario3_7_Trustee_Edit_CSOP', function (req, res) {
+      res.render('CSOP/scenario3_7_Trustee_Edit_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+app.get('/CSOP/scenario3_8_Alterations_CSOP', function (req, res) {
+      res.render('CSOP/scenario3_8_Alterations_CSOP',
+                {'assetPath' : assetPath});
+
+    });      
+
+                app.get('/CSOP/scenario3_9_Alterations_Check_CSOP', function (req, res) {
+      res.render('CSOP/scenario3_9_Alterations_Check_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+                app.get('/CSOP/scenario3_10_Summary_CSOP', function (req, res) {
+      res.render('CSOP/scenario3_10_Summary_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+             app.get('/CSOP/scenario3_11_Confirmation_CSOP', function (req, res) {
+      res.render('CSOP/scenario3_11_Confirmation_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/CSOP/scenario1_17_upload_CSV', function (req, res) {
+      res.render('CSOP/scenario1_17_upload_CSV',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/CSOP/scenario1_14_csv_ods_CSOP', function (req, res) {
+      res.render('CSOP/scenario1_14_csv_ods_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+
+            app.get('/CSOP/scenario1_14_csv_ods_CSOP_ERRORS', function (req, res) {
+      res.render('CSOP/scenario1_14_csv_ods_CSOP_ERRORS',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/CSOP/scenario1_15_ods_CSOP', function (req, res) {
+      res.render('CSOP/scenario1_15_ods_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/CSOP/scenario1_15_ods_CSOP_ERRORS', function (req, res) {
+      res.render('CSOP/scenario1_15_ods_CSOP_ERRORS',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/CSOP/scenario1_2_Group_CSOP', function (req, res) {
+      res.render('CSOP/scenario1_2_Group_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/CSOP/scenario1_12_manual_csv_CSOP', function (req, res) {
+      res.render('CSOP/scenario1_12_manual_csv_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+
+
+// OTHER Scenarios
+
+       app.get('/OTHER/scenario1_0_Start_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_0_Start_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+        app.get('/OTHER/scenario1_13_company_details_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_13_company_details_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+        app.get('/OTHER/scenario1_16_OTHER_company_summary', function (req, res) {
+      res.render('OTHER/scenario1_16_OTHER_company_summary',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/OTHER/scenario1_17_upload_OTHER_CSV', function (req, res) {
+      res.render('OTHER/scenario1_17_upload_OTHER_CSV',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/OTHER/scenario1_1_What_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_1_What_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/OTHER/scenario1_18_upload_OTHER_CSV', function (req, res) {
+      res.render('OTHER/scenario1_18_upload_OTHER_CSV',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+       app.get('/OTHER/scenario1_11_company_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_11_company_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/OTHER/scenario3_1_What_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_1_What_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/OTHER/scenario3_2_Check_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_2_Check_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+   app.get('/OTHER/scenario3_3_Group_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_3_Group_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/OTHER/scenario3_4_Group_Details_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_4_Group_Details_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/OTHER/scenario3_5_Group_Edit_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_5_Group_Edit_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+         
+             app.get('/OTHER/scenario3_6_Trustee_Details_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_6_Trustee_Details_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/OTHER/scenario3_7_Trustee_Edit_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_7_Trustee_Edit_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+app.get('/OTHER/scenario3_8_Alterations_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_8_Alterations_OTHER',
+                {'assetPath' : assetPath});
+
+    });      
+
+                app.get('/OTHER/scenario3_9_Alterations_Check_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_9_Alterations_Check_OTHER',
+                {'assetPath' : assetPath});
+
+    }); 
+
+                app.get('/OTHER/scenario3_10_Summary_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_10_Summary_OTHER',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+             app.get('/OTHER/scenario3_11_Confirmation_OTHER', function (req, res) {
+      res.render('OTHER/scenario3_11_Confirmation_OTHER',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/OTHER/scenario1_17_upload_CSV', function (req, res) {
+      res.render('OTHER/scenario1_17_upload_CSV',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/OTHER/scenario1_14_csv_ods_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_14_csv_ods_OTHER',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/OTHER/scenario1_15_ods_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_15_ods_OTHER',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/OTHER/scenario1_2_Group_OTHER', function (req, res) {
+      res.render('CSOP/scenario1_2_Group_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/OTHER/scenario1_12_manual_csv_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_12_manual_csv_OTHER',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+
+
+// EMI Scenarios
+
+       app.get('/EMI/scenario1_0_Start_EMI', function (req, res) {
+      res.render('EMI/scenario1_0_Start_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+        app.get('/EMI/scenario1_13_company_details_EMI', function (req, res) {
+      res.render('EMI/scenario1_13_company_details_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+
+        app.get('/EMI/scenario1_10_Confirmation_EMI', function (req, res) {
+      res.render('EMI/scenario1_10_Confirmation_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+
+        app.get('/EMI/scenario1_9_Summary_EMI', function (req, res) {
+      res.render('EMI/scenario1_9_Summary_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/EMI/scenario1_2_Group_EMI', function (req, res) {
+      res.render('EMI/scenario1_2_Group_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+        app.get('/EMI/scenario1_16_EMI_company_summary', function (req, res) {
+      res.render('EMI/scenario1_16_EMI_company_summary',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/EMI/scenario1_17_upload_EMI_CSV', function (req, res) {
+      res.render('EMI/scenario1_17_upload_EMI_CSV',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/EMI/scenario1_1_What_EMI', function (req, res) {
+      res.render('EMI/scenario1_1_What_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/EMI/scenario1_18_upload_EMI_CSV', function (req, res) {
+      res.render('EMI/scenario1_18_upload_EMI_CSV',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+       app.get('/EMI/scenario1_11_company_EMI', function (req, res) {
+      res.render('EMI/scenario1_11_company_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/EMI/scenario3_1_What_EMI', function (req, res) {
+      res.render('EMI/scenario3_1_What_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/EMI/scenario3_2_Check_EMI', function (req, res) {
+      res.render('EMI/scenario3_2_Check_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+        app.get('/EMI/scenario3_3_Group_EMI', function (req, res) {
+      res.render('EMI/scenario3_3_Group_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/EMI/scenario3_4_Group_Details_EMI', function (req, res) {
+      res.render('EMI/scenario3_4_Group_Details_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/EMI/scenario3_5_Group_Edit_EMI', function (req, res) {
+      res.render('EMI/scenario3_5_Group_Edit_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+         
+             app.get('/EMI/scenario3_6_Trustee_Details_EMI', function (req, res) {
+      res.render('EMI/scenario3_6_Trustee_Details_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/EMI/scenario3_7_Trustee_Edit_EMI', function (req, res) {
+      res.render('EMI/scenario3_7_Trustee_Edit_EMI',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/EMI/scenario3_8_Alterations_EMI', function (req, res) {
+      res.render('EMI/scenario3_8_Alterations_EMI',
+                {'assetPath' : assetPath});
+
+    });      
+
+                app.get('/EMI/scenario3_9_Alterations_Check_EMI', function (req, res) {
+      res.render('EMI/scenario3_9_Alterations_Check_EMI',
+                {'assetPath' : assetPath});
+
+    }); 
+
+                app.get('/EMI/scenario3_10_Summary_EMI', function (req, res) {
+      res.render('EMI/scenario3_10_Summary_EMI',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+             app.get('/EMI/scenario3_11_Confirmation_EMI', function (req, res) {
+      res.render('EMI/scenario3_11_Confirmation_EMI',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/EMI/scenario1_17_upload_CSV', function (req, res) {
+      res.render('EMI/scenario1_17_upload_CSV',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/EMI/scenario1_14_csv_ods_EMI', function (req, res) {
+      res.render('EMI/scenario1_14_csv_ods_EMI',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/EMI/scenario1_15_ods_EMI', function (req, res) {
+      res.render('EMI/scenario1_15_ods_EMI',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/EMI/scenario1_2_Group_EMI', function (req, res) {
+      res.render('EMI/scenario1_2_Group_EMI',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/EMI/scenario1_12_manual_csv_EMI', function (req, res) {
+      res.render('EMI/scenario1_12_manual_csv_EMI',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
 
 
 

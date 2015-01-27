@@ -15,24 +15,50 @@
               </p>
             </div>
           </details>-->
-<form action="" method="post" class="form">
-            <fieldset class="inline">
-              <legend></legend>
-              
-              <div class="form-group">
+ 
+ <fieldset class="inline">
+ <label class="block-label" for="radio-1">
+        <input id="yes" type="radio" name="radio-group" value="Yes">Yes</label>
+  
+        <label class="block-label" for="radio-2">
+        <input id="no" type="radio" name="radio-group" value="No">No</label>
+     </fieldset>
 
-                <label for="radio-1" class="block-label">
-                  <input id="radio-1" type="radio" name="radio-group" value="start">
-                  Yes<br>
-                </label>
+      
+ 
+        <div class="form-group">
+            <br>
+          <button id="next" class="button">Next</button>
+          <br>
+          <a class="button-link" onclick="history.back(-1); return false; " href="">Back</a>
+        </div>
+ 
+    </div>
+  </div>
 
-                <label for="radio-2" class="block-label">
-                  <input id="radio-2" type="radio" name="radio-group" value="Complete a return">
-                  No
-                </label>
-                </div>
-            </fieldset>
-           
-            <p class="text"></p>
-          </div>
+</main>
+
+
+{{$endBody}}
+    <!--Load in jquery library-->
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+    <script type="text/javascript">
+         //when go button is clicked create a function
+         $('#next').click(function() {
+              //if radio button yes is checked go to home '/'
+             if($('#yes').is(':checked')){
+               location.href = 'scenario3_9_Alterations_Check_SIP'
+             }
+             // else if radio button no is checked go to /summary page
+             else if ($('#no').is(':checked')){
+               location.href = 'scenario3_10_Summary_SIP'
+             }
+             // else if nothing is ticket return false and od nothing
+             else{
+               return false;
+             }
+         });
+    </script>
+{{/endBody}}
+
           
