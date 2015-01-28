@@ -1785,7 +1785,23 @@ app.get('/CSOP/scenario3_8_Alterations_CSOP', function (req, res) {
 
     }); 
 
-            app.get('/CSOP/scenario1_14_csv_ods_CSOP', function (req, res) {
+
+            app.get('/CSOP/scenario1_17_upload_CSV', function (req, res) {
+      res.render('CSOP/scenario1_17_upload_CSV',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+
+            app.get('/CSOP/scenario1_7_Alterations_CSOP', function (req, res) {
+      res.render('CSOP/scenario1_7_Alterations_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+ app.get('/CSOP/scenario1_14_csv_ods_CSOP', function (req, res) {
       res.render('CSOP/scenario1_14_csv_ods_CSOP',
                 {'assetPath' : assetPath});
 
