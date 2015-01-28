@@ -17,13 +17,11 @@
   <div class="inner-block">
   <!-- main content starts -->
    {{>sub_header_EMI}}
-<h1 class="heading-large">Upload your CSV spreadsheets</h1>
+<h1 class="heading-large">Upload your qualifying subsidiary company details</h1>
  <!-- radio buttons start -->
-          <p class="text">Choose the spreadsheets that you want to upload.</p>
+          <p class="text">Choose the comma separated values (CSV, .csv) file that you want to upload.</p>
 
-          <div class="text panel-indent"><p class="text">
-              You've told us your spreadsheets are CSV files. If you're uploading multiple spreadsheets they must all be the same file type.
-              </p></div>
+          
                      <!--<details>
             <summary><span class="summary">What are format errors?</span></summary>
             <div class="panel-indent">
@@ -75,7 +73,7 @@
     <tr><td>ExampleCompanyCSOP1.jpg</td><td><span style="color: #DF3034">You must choose another ODS file</span></td><td><a href="">Remove file</td></tr-->
   </table>
   <br>
-              <a class="button" href="scenario1_16_EMI_company_summary">Upload listed files</a>
+              <a class="button" href="scenario1_16_EMI_company_summary">Upload file</a>
             </p>    
  </div>
 
@@ -148,7 +146,7 @@ function getUrlVars() {
 
 $(document).ready(function(){
     //alert(getUrlVars()["radio-group"]);
-    $("h1").html("Upload your "+ getUrlVars()["radio-group"] +" spreadsheet");
+    //$("h1").html("Upload your "+ getUrlVars()["radio-group"] +" spreadsheet");
     $("#fileType").html("You've told us your spreadsheets are "+ getUrlVars()["radio-group"] +" files. If you're uploading multiple spreadsheets they must all be the same file type . ")
 })
 
