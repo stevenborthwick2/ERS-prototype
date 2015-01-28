@@ -1,10 +1,12 @@
-  <h1 class="heading-large">Choose what you want to do</h1>
+  <h1 class="heading-large">Reportable events</h1>
  <!-- radio buttons start -->
-          <p class="text">You can:</p>
-                  <ul class="text list-bullet"><li>upload a spreadsheet if options were adjusted, replaced, released, lapsed, cancelled or exercised during the tax year</li>
-                  <li>declare a nil return if no options were adjusted, replaced, released, lapsed, cancelled or exercised during the tax year </li></ul>
+          <p class="text">Have options been granted, exercised, released (including exchanges), lapsed or cancelled during the tax year?</p>
+                  
+ <!-- <details>
+                  <ul class="text list-bullet"><li>select 'yes' if options have been granted, exercised, released (including exchanges), lapsed or cancelled during the tax year</li>
+                  <li>select 'no' if no options have been granted, exercised, released (including exchanges), lapsed or cancelled during the tax year</li></ul>
                    <div class="form-block">
-          <!-- <details>
+         
             <summary><span class="summary">What are reportable events?</span></summary>
             <div class="panel-indent">
               <p class="text">
@@ -12,11 +14,13 @@
               </p>
             </div>
           </details>-->
-<label class="block-label" for="radio-1">
-        <input id="yes" type="radio" name="radio-group" value="Yes">Upload a spreadsheet</label>
+<fieldset class="inline">
+ <label class="block-label" for="radio-1">
+        <input id="yes" type="radio" name="radio-group" value="Yes">Yes</label>
   
         <label class="block-label" for="radio-2">
-        <input id="no" type="radio" name="radio-group" value="No">Declare a nil return</label>
+        <input id="no" type="radio" name="radio-group" value="No">No (nil return)</label>
+     </fieldset>
    
 
       
