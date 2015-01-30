@@ -1153,6 +1153,10 @@ ul li, ol li {
   max-width: 1020px;
   padding-bottom: 120px; }
 
+.drop-down {
+  padding: 4px;
+  font-size: 19px; }
+
 .hmrc-banner {
   border-left: 2px solid #009390;
   display: block;

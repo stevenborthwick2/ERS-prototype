@@ -663,11 +663,32 @@ app.get('/SIP/scenario1_17_upload_CSV', function (req, res) {
 
     });
 
-              app.get('/SAYE/scenario1_1_What_SAYE', function (req, res) {
+              app.get('/SAYE/scenario1_14_csv_ods_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_14_csv_ods_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+
+              app.get('/SAYE/scenario1_18_upload_SAYE_CSV', function (req, res) {
+      res.render('SAYE/scenario1_18_upload_SAYE_CSV',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/SAYE/scenario1_15_ods_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_15_ods_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/SAYE/scenario1_1_What_SAYE', function (req, res) {
       res.render('SAYE/scenario1_1_What_SAYE',
                 {'assetPath' : assetPath});
 
     });
+
 
                           app.get('/SAYE/scenario1_2_Group_SAYE', function (req, res) {
       res.render('SAYE/scenario1_2_Group_SAYE',
@@ -2166,6 +2187,557 @@ app.get('/EMI/scenario1_2_Group_EMI', function (req, res) {
                 {'assetPath' : assetPath});
 
     }); 
+
+
+
+// SAYE End of Year Return Scenario 3
+
+       app.get('/SAYE/scenario1_0_Start_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_0_Start_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+       app.get('/SAYE/SAYE_errors_scenario2_4', function (req, res) {
+      res.render('SAYE/SAYE_errors_scenario2_4',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/SAYE/SAYE_errors_scenario2_4', function (req, res) {
+      res.render('SAYE/SAYE_errors_scenario2_4',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+        app.get('/SAYE/scenario1_0_Start_SAYE_ERRORS', function (req, res) {
+      res.render('SAYE/scenario1_0_Start_SAYE_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+        app.get('/SAYE/scenario1_13_company_details_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_13_company_details_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+        app.get('/SAYE/scenario1_16_SAYE_company_summary', function (req, res) {
+      res.render('SAYE/scenario1_16_SAYE_company_summary',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/SAYE/scenario1_17_upload_SAYE_CSV', function (req, res) {
+      res.render('SAYE/scenario1_17_upload_SAYE_CSV',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/SAYE/scenario1_1_What_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_1_What_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+       app.get('/SAYE/scenario1_1_What_SAYE_ERRORS', function (req, res) {
+      res.render('SAYE/scenario1_1_What_SAYE_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/SAYE/scenario1_18_upload_SAYE_CSV', function (req, res) {
+      res.render('SAYE/scenario1_18_upload_CSOP_CSV',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/SAYE/scenario1_18_upload_SAYE_CSV_ERRORS', function (req, res) {
+      res.render('SAYE/scenario1_18_upload_SAYE_CSV_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/SAYE/scenario1_11_company_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_11_company_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/SAYE/scenario3_1_What_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_1_What_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/SAYE/scenario3_2_Check_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_2_Check_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+   app.get('/SAYE/scenario3_3_Group_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_3_Group_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/SAYE/scenario3_4_Group_Details_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_4_Group_Details_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SAYE/scenario3_5_Group_Edit_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_5_Group_Edit_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+         
+             app.get('/SAYE/scenario3_6_Trustee_Details_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_6_Trustee_Details_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SAYE/scenario3_7_Trustee_Edit_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_7_Trustee_Edit_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+app.get('/SAYE/scenario1_7_Alterations_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_7_Alterations_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/SAYE/scenario3_9_Alterations_Check_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_9_Alterations_Check_SAYE',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+app.get('/SAYE/scenario3_8_Alterations_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_8_Alterations_SAYE',
+                {'assetPath' : assetPath});
+
+    });      
+
+                app.get('/SAYE/scenario3_9_Alterations_Check_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_9_Alterations_Check_SAYE',
+                {'assetPath' : assetPath});
+
+    }); 
+
+                app.get('/SAYE/scenario3_10_Summary_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_10_Summary_SAYE',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+             app.get('/SAYE/scenario3_11_Confirmation_SAYE', function (req, res) {
+      res.render('SAYE/scenario3_11_Confirmation_SAYE',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/SAYE/scenario1_17_upload_CSV', function (req, res) {
+      res.render('SAYE/scenario1_17_upload_CSV',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/SAYE/scenario1_17_upload_CSV', function (req, res) {
+      res.render('SAYE/scenario1_17_upload_CSV',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+
+            app.get('/SAYE/scenario1_7_Alterations_CSOP', function (req, res) {
+      res.render('SAYE/scenario1_7_Alterations_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+ app.get('/SAYE/scenario1_14_csv_ods_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_14_csv_ods_SAYE',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+
+            app.get('/SAYE/scenario1_14_csv_ods_SAYE_ERRORS', function (req, res) {
+      res.render('SAYE/scenario1_14_csv_ods_SAYE_ERRORS',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/SAYE/scenario1_15_ods_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_15_ods_SAYE',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/SAYE/scenario1_15_ods_SAYE_ERRORS', function (req, res) {
+      res.render('SAYE/scenario1_15_ods_SAYE_ERRORS',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/SAYE/scenario1_2_Group_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_2_Group_SAYE',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/SAYE/scenario1_12_manual_csv_SAYE', function (req, res) {
+      res.render('SAYE/scenario1_12_manual_csv_SAYE',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+
+            // SIP End of Year Return Scenario 3
+
+       app.get('/SIP/scenario1_0_Start_SIP', function (req, res) {
+      res.render('SIP/scenario1_0_Start_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+       app.get('/SIP/SIP_errors_scenario2_4', function (req, res) {
+      res.render('SIP/SIP_errors_scenario2_4',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/SIP/SIP_errors_scenario2_4', function (req, res) {
+      res.render('SIP/SIP_errors_scenario2_4',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+        app.get('/SIP/scenario1_0_Start_SIP_ERRORS', function (req, res) {
+      res.render('SIP/scenario1_0_Start_SIP_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+        app.get('/SIP/scenario1_13_company_details_SIP', function (req, res) {
+      res.render('SIP/scenario1_13_company_details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+        app.get('/SIP/scenario1_16_SIP_company_summary', function (req, res) {
+      res.render('SIP/scenario1_16_SIP_company_summary',
+                {'assetPath' : assetPath});
+
+    });
+
+
+ app.get('/SIP/scenario1_1_What_SIP_ERRORS', function (req, res) {
+      res.render('SIP/scenario1_1_What_SIP_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+
+
+      app.get('/SIP/scenario1_17_upload_SIP_CSV', function (req, res) {
+      res.render('SIP/scenario1_17_upload_SIP_CSV',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/SIP/scenario1_1_What_SIP', function (req, res) {
+      res.render('SIP/scenario1_1_What_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+       app.get('/SIP/scenario1_1_What_SIP_ERRORS', function (req, res) {
+      res.render('SIP/scenario1_1_What_SIP_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/SIP/scenario1_18_upload_SIP_CSV', function (req, res) {
+      res.render('SIP/scenario1_18_upload_CSOP_CSV',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+app.get('/SIP/scenario1_20_SIP_company_single_summary', function (req, res) {
+      res.render('SIP/scenario1_20_SIP_company_single_summary',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+app.get('/CSOP/scenario1_20_CSOP_company_single_summary', function (req, res) {
+      res.render('CSOP/scenario1_20_CSOP_company_single_summary',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/SAYE/scenario1_20_SAYE_company_single_summary', function (req, res) {
+      res.render('SAYE/scenario1_20_SAYE_company_single_summary',
+                {'assetPath' : assetPath});
+
+    });
+
+app.get('/EMI/scenario1_20_EMI_company_single_summary', function (req, res) {
+      res.render('EMI/scenario1_20_EMI_company_single_summary',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+
+
+
+
+app.get('/SIP/scenario1_0_Start_CSOP_ERRORS', function (req, res) {
+      res.render('SIP/scenario1_0_Start_CSOP_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/SIP/scenario1_17_upload_CSV_ERRORS', function (req, res) {
+      res.render('SIP/scenario1_17_upload_CSV_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+      
+
+app.get('/SIP/scenario1_18_upload_SIP_CSV_ERRORS', function (req, res) {
+      res.render('SIP/scenario1_18_upload_SIP_CSV_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/SIP/scenario1_11_company_SIP', function (req, res) {
+      res.render('SIP/scenario1_11_company_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/SIP/scenario3_1_What_SIP', function (req, res) {
+      res.render('SIP/scenario3_1_What_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/SIP/scenario3_2_Check_SIP', function (req, res) {
+      res.render('SIP/scenario3_2_Check_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+   app.get('/SIP/scenario3_3_Group_SIP', function (req, res) {
+      res.render('SIP/scenario3_3_Group_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/SIP/scenario3_4_Group_Details_SIP', function (req, res) {
+      res.render('SIP/scenario3_4_Group_Details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SIP/scenario3_5_Group_Edit_SIP', function (req, res) {
+      res.render('SIP/scenario3_5_Group_Edit_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+         
+             app.get('/SIP/scenario3_6_Trustee_Details_SIP', function (req, res) {
+      res.render('SIP/scenario3_6_Trustee_Details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SIP/scenario3_7_Trustee_Edit_SIP', function (req, res) {
+      res.render('SIP/scenario3_7_Trustee_Edit_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+app.get('/SIP/scenario1_7_Alterations_SIP', function (req, res) {
+      res.render('SIP/scenario1_7_Alterations_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/SIP/scenario3_9_Alterations_Check_SIP', function (req, res) {
+      res.render('SIP/scenario3_9_Alterations_Check_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+app.get('/SIP/scenario3_8_Alterations_SIP', function (req, res) {
+      res.render('SIP/scenario3_8_Alterations_SIP',
+                {'assetPath' : assetPath});
+
+    });      
+
+                app.get('/SIP/scenario3_9_Alterations_Check_SIP', function (req, res) {
+      res.render('SIP/scenario3_9_Alterations_Check_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+                app.get('/SIP/scenario3_10_Summary_SIP', function (req, res) {
+      res.render('SIP/scenario3_10_Summary_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+             app.get('/SIP/scenario3_11_Confirmation_SIP', function (req, res) {
+      res.render('SIP/scenario3_11_Confirmation_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/SIP/scenario1_17_upload_CSV', function (req, res) {
+      res.render('SIP/scenario1_17_upload_CSV',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/SIP/scenario1_17_upload_CSV', function (req, res) {
+      res.render('SIP/scenario1_17_upload_CSV',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+
+            app.get('/SIP/scenario1_7_Alterations_CSOP', function (req, res) {
+      res.render('SIP/scenario1_7_Alterations_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+ app.get('/SIP/scenario1_14_csv_ods_SIP', function (req, res) {
+      res.render('SIP/scenario1_14_csv_ods_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+  app.get('/SIP/scenario1_11_add_company_SIP', function (req, res) {
+      res.render('SIP/scenario1_19_add_company_details_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+
+
+
+ 
+
+
+
+            app.get('/SIP/scenario1_14_csv_ods_SIP_ERRORS', function (req, res) {
+      res.render('SIP/scenario1_14_csv_ods_SIP_ERRORS',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/SIP/scenario1_15_ods_SIP', function (req, res) {
+      res.render('SIP/scenario1_15_ods_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/SIP/scenario1_15_ods_SIP_ERRORS', function (req, res) {
+      res.render('SIP/scenario1_15_ods_SIP_ERRORS',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/SIP/scenario1_2_Group_SIP', function (req, res) {
+      res.render('SIP/scenario1_2_Group_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/SIP/scenario1_12_manual_csv_SIP', function (req, res) {
+      res.render('SIP/scenario1_12_manual_csv_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+app.get('/SIP/scenario1_19_add_company_details_SIP', function (req, res) {
+      res.render('SIP/scenario1_19_add_company_details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+
+
 
 
 
