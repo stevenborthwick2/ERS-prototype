@@ -1731,6 +1731,17 @@ app.get('/CSOP/scenario1_18_upload_CSOP_CSV_ERRORS', function (req, res) {
 
     });
 
+
+
+ app.get('/CSOP/CSOP_errors_scenario2_5', function (req, res) {
+      res.render('CSOP/CSOP_errors_scenario2_5',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       
+
               app.get('/CSOP/scenario3_1_What_CSOP', function (req, res) {
       res.render('CSOP/scenario3_1_What_CSOP',
                 {'assetPath' : assetPath});
