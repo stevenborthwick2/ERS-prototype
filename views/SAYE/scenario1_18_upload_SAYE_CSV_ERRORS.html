@@ -17,11 +17,13 @@
   <div class="inner-block">
   <!-- main content starts -->
    {{>sub_header_SAYE}}
-<h1 class="heading-large">Upload your group scheme details</h1>
+<h1 class="heading-large">Upload your files</h1>
  <!-- radio buttons start -->
-          <p class="text">Choose the comma separated values (CSV, .csv) file that you want to upload.</p>
+          <p class="text">Choose the comma separated values (CSV, .csv) files that you want to upload as part of your Save As You Earn annual return.</p>
 
-        
+          <div class="text panel-indent"><p class="text">
+              You can only upload CSV (.csv) files.
+              </p></div>
                      <!--<details>
             <summary><span class="summary">What are format errors?</span></summary>
             <div class="panel-indent">
@@ -53,8 +55,9 @@
 <div id="question1" class="form-group">
    
 
-  
+   <p class="text">Options granted</p>
                      
+
           <div id="browsefilebox" class="question-body">                 
                        
                        <div class="form1">       
@@ -65,8 +68,44 @@
                     
       </div>  
 
-                                     
                    
+
+<div id="question1" class="form-group">
+
+   <p class="text">Options released (including exchanges) cancelled or lapsed in year</p>
+                     
+
+        <div id="browsefilebox" class="question-body">                 
+                       
+
+              <div class="form1">       
+                         <input id="selectFile" type="file" name="somename" size="chars">
+                         <!--<div id="btnHolder"><button id="selectFileBtn" class="button-secondary">Choose your file</button></div>-->
+                         <div id="selectedFileName">&nbsp;</div>     
+              </div>                  
+  </div>
+
+
+<div id="question1" class="form-group">
+
+   <p class="text">Options exercised</p>
+                     
+
+        <div id="browsefilebox" class="question-body">                 
+                       
+
+              <div class="form1">       
+                         <input id="selectFile" type="file" name="somename" size="chars">
+                         <!--<div id="btnHolder"><button id="selectFileBtn" class="button-secondary">Choose your file</button></div>-->
+                         <div id="selectedFileName">&nbsp;</div>     
+              </div>                  
+  </div>
+</div>                     
+                   
+
+
+
+
 <form>
   <input id="input-file-name" type="file" name="file[]" style="display:none;" multiple/>
 </form>
@@ -76,12 +115,12 @@
               <legend></legend>
               
       </fieldset>
-          <a class="button" href="scenario1_20_SAYE_company_single_summary">Upload file</a>
-        
+          <a class="button" href="SAYE_errors_scenario2_4">Upload files</a>
+          
               
           </form>
 
-          <p class="text"><a href="scenario1_12_manual_csv_SAYE">Back</a></p>
+          <p class="text"><a href="scenario1_14_csv_ods_SAYE_ERRORS">Back</a></p>
 
 </div>
 </div>

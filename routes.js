@@ -727,6 +727,22 @@ app.get('/SAYE/scenario1_1_What_SAYE', function (req, res) {
     }); 
 
 
+
+app.get('/SAYE/scenario2_5_Errors_SAYE', function (req, res) {
+      res.render('SAYE/scenario2_5_Errors_SAYE',
+                {'assetPath' : assetPath});
+
+    }); 
+
+app.get('/SAYE/SAYE_errors_scenario2_5', function (req, res) {
+      res.render('SAYE/SAYE_errors_scenario2_5',
+                {'assetPath' : assetPath});
+
+    }); 
+             
+
+
+
              app.get('/SAYE/scenario1_8_Confirmation_SAYE', function (req, res) {
       res.render('SAYE/scenario1_8_Confirmation_SAYE',
                 {'assetPath' : assetPath});
@@ -2355,6 +2371,14 @@ app.get('/SAYE/scenario3_9_Alterations_Check_SAYE', function (req, res) {
 
 app.get('/SAYE/scenario3_8_Alterations_SAYE', function (req, res) {
       res.render('SAYE/scenario3_8_Alterations_SAYE',
+                {'assetPath' : assetPath});
+
+    });      
+
+
+
+app.get('/SAYE/scenario1_14_csv_ods_CSOP_ERRORS', function (req, res) {
+      res.render('SAYE/scenario1_14_csv_ods_CSOP_ERRORS',
                 {'assetPath' : assetPath});
 
     });      
