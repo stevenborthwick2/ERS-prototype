@@ -1797,6 +1797,14 @@ app.get('/CSOP/scenario3_8_Alterations_CSOP', function (req, res) {
 
     }); 
 
+
+                app.get('/CSOP/scenario2_4_Errors_CSOP', function (req, res) {
+      res.render('CSOP/scenario2_4_Errors_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
                 app.get('/CSOP/scenario3_10_Summary_CSOP', function (req, res) {
       res.render('CSOP/scenario3_10_Summary_CSOP',
                 {'assetPath' : assetPath});
