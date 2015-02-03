@@ -2456,6 +2456,13 @@ app.get('/SAYE/scenario3_8_Alterations_SAYE', function (req, res) {
     });
 
 
+       app.get('/SIP/SIP_errors_scenario2_5', function (req, res) {
+      res.render('SIP/SIP_errors_scenario2_5',
+                {'assetPath' : assetPath});
+
+    });
+
+
 
         app.get('/SIP/scenario1_0_Start_SIP_ERRORS', function (req, res) {
       res.render('SIP/scenario1_0_Start_SIP_ERRORS',
