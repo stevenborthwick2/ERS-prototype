@@ -856,6 +856,34 @@ app.get('/SAYE/scenario3_8_Summary_SAYE', function (req, res) {
 
     });
 
+
+
+ app.get('/OTHER/scenario1_20_OTHER_company_single_summary', function (req, res) {
+      res.render('OTHER/scenario1_20_OTHER_company_single_summary',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+
+
+ app.get('/OTHER/scenario1_9_Summary_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_9_Summary_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/OTHER/scenario1_10_Confirmation_OTHER', function (req, res) {
+      res.render('OTHER/scenario1_10_Confirmation_OTHER',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+
               app.get('/OTHER/scenario1_1_What_OTHER', function (req, res) {
       res.render('OTHER/scenario1_1_What_OTHER',
                 {'assetPath' : assetPath});

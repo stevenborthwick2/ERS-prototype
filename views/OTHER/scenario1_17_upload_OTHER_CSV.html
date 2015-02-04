@@ -16,14 +16,12 @@
 <div class="outer-block">
   <div class="inner-block">
   <!-- main content starts -->
-   {{>sub_header_CSOP}}
-<h1 class="heading-large">Upload your CSV spreadsheets</h1>
+   {{>sub_header_OTHER}}
+<h1 class="heading-large">Upload your group plan details</h1>
  <!-- radio buttons start -->
-          <p class="text">Choose the spreadsheets that you want to upload.</p>
+          <p class="text">Choose the comma separated values (CSV, .csv) file that you want to upload.</p>
 
-          <div class="text panel-indent"><p class="text">
-              You've told us your spreadsheets are CSV files. If you're uploading multiple spreadsheets they must all be the same file type.
-              </p></div>
+        
                      <!--<details>
             <summary><span class="summary">What are format errors?</span></summary>
             <div class="panel-indent">
@@ -47,44 +45,44 @@
 </div>
 <div class="grid-wrapper">
     <div class="grid grid-2-3">
-      <div class="inner-block">
-<p class="text"><button id="choose-file-button" style="background-color: #BFC1C3; position: relative; display: -moz-inline-stack; display: inline-block; padding: 0.3em 0.6em 0.2em 0.6em; border: none; -webkit-border-radius: 0; -moz-border-radius: 0;
-  border-radius: 0;
-  -webkit-appearance: none;
-  -webkit-box-shadow: 0 2px 0 #003518;
-  -moz-box-shadow: 0 2px 0 #003518;
-  box-shadow: 0 2px 0 #003518;
-  font-size: 1em;
-  line-height: 1.25;
-  text-decoration: none;
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  color: #000;
-  margin: 0 15px 15px 0;
-  padding: 0.52632em 0.78947em 0.26316em 0.78947em;
-  vertical-align: top; ">Browse for files</button></p>
 
+      <div class="inner-block">
+        
+
+
+<div id="question1" class="form-group">
+   
+
+  
+                     
+          <div id="browsefilebox" class="question-body">                 
+                       
+                       <div class="form1">       
+                         <input id="selectFile" type="file" name="somename" size="chars">
+                         <!--<div id="btnHolder"><button id="selectFileBtn" class="button-secondary">Choose your file</button></div>-->
+                         <div id="selectedFileName">&nbsp;</div>     
+          </div>                  
+                    
+      </div>  
+
+                                     
+                   
 <form>
   <input id="input-file-name" type="file" name="file[]" style="display:none;" multiple/>
 </form>
 
- <div class="inner-block" style="display:none;" id="fileDiv">
-  <table id="fileTable">
-    <tr><th>File name</th><th>Status</th><th>Action</th></tr>
-    <!--tr><td>ExampleCompanyCSOP1.ods</td><td>Ready to upload</td><td><a href="">Remove file</td></tr>
-    <tr><td>ExampleCompanyCSOP1.jpg</td><td><span style="color: #DF3034">You must choose another ODS file</span></td><td><a href="">Remove file</td></tr-->
-  </table>
-  <br>
-              <a class="button" href="scenario1_16_OTHER_company_summary">Upload listed files</a>
-            </p>    
- </div>
-
-
-
-
-   
+ <form action="" method="post" class="form">
+            <fieldset>
+              <legend></legend>
+              
+      </fieldset>
+          <a class="button" href="scenario1_20_OTHER_company_single_summary">Upload file</a>
         
+              
+          </form>
+
           <p class="text"><a href="scenario1_12_manual_csv_OTHER">Back</a></p>
+
 </div>
 </div>
 
@@ -148,7 +146,7 @@ function getUrlVars() {
 
 $(document).ready(function(){
     //alert(getUrlVars()["radio-group"]);
-    $("h1").html("Upload your "+ getUrlVars()["radio-group"] +" spreadsheet");
+   // $("h1").html("Upload your "+ getUrlVars()["radio-group"] +" spreadsheet");
     $("#fileType").html("You've told us your spreadsheets are "+ getUrlVars()["radio-group"] +" files. If you're uploading multiple spreadsheets they must all be the same file type . ")
 })
 
