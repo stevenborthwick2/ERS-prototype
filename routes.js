@@ -1948,6 +1948,46 @@ app.get('/CSOP/scenario3_8_Alterations_CSOP', function (req, res) {
     });
 
 
+app.get('/OTHER/scenario1_18_upload_OTHER_CSV_ERROR', function (req, res) {
+      res.render('OTHER/scenario1_18_upload_OTHER_CSV_ERROR',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/OTHER/scenario1_15_ods_OTHER_ERROR', function (req, res) {
+      res.render('OTHER/scenario1_15_ods_OTHER_ERROR',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/OTHER/OTHER_errors_scenario2_4', function (req, res) {
+      res.render('OTHER/OTHER_errors_scenario2_4',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+app.get('/OTHER/OTHER_errors_scenario2_5', function (req, res) {
+      res.render('OTHER/OTHER_errors_scenario2_5',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+
+
+app.get('/OTHER/scenario1_14_csv_ods_OTHER_ERROR', function (req, res) {
+      res.render('OTHER/scenario1_14_csv_ods_OTHER_ERROR',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
       app.get('/OTHER/scenario1_17_upload_OTHER_CSV', function (req, res) {
       res.render('OTHER/scenario1_17_upload_OTHER_CSV',
                 {'assetPath' : assetPath});
@@ -2019,6 +2059,73 @@ app.get('/CSOP/scenario3_8_Alterations_CSOP', function (req, res) {
 
     });
 
+
+
+app.get('/OTHER/scenario1_0_Start_EMI_ERROR', function (req, res) {
+      res.render('OTHER/scenario1_0_Start_EMI_ERROR',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/OTHER/scenario1_1_What_EMI_ERROR', function (req, res) {
+      res.render('OTHER/scenario1_1_What_EMI_ERROR',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/OTHER/scenario1_14_csv_ods_EMI_ERROR', function (req, res) {
+      res.render('OTHER/scenario1_14_csv_ods_EMI_ERROR',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/OTHER/scenario1_18_upload_EMI_CSV_ERROR', function (req, res) {
+      res.render('OTHER/scenario1_18_upload_EMI_CSV_ERROR',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/OTHER/scenario1_15_ods_EMI_ERROR', function (req, res) {
+      res.render('OTHER/scenario1_15_ods_EMI_ERROR',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/OTHER/EMI_errors_scenario2_5', function (req, res) {
+      res.render('OTHER/EMI_errors_scenario2_5',
+                {'assetPath' : assetPath});
+
+    });
+
+app.get('/OTHER/EMI_errors_scenario2_4', function (req, res) {
+      res.render('OTHER/EMI_errors_scenario2_4',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+app.get('/OTHER/scenario1_0_Start_OTHER_ERROR', function (req, res) {
+      res.render('OTHER/scenario1_0_Start_OTHER_ERROR',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/OTHER/scenario1_1_What_OTHER_ERROR', function (req, res) {
+      res.render('OTHER/scenario1_1_What_OTHER_ERROR',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+
 app.get('/OTHER/scenario3_8_Alterations_OTHER', function (req, res) {
       res.render('OTHER/scenario3_8_Alterations_OTHER',
                 {'assetPath' : assetPath});
@@ -2087,6 +2194,13 @@ app.get('/OTHER/scenario3_8_Alterations_OTHER', function (req, res) {
 
     });
 
+
+       app.get('/EMI/scenario1_0_Start_EMI_ERROR', function (req, res) {
+      res.render('EMI/scenario1_0_Start_EMI_ERROR',
+                {'assetPath' : assetPath});
+
+    });
+
         app.get('/EMI/scenario1_13_company_details_EMI', function (req, res) {
       res.render('EMI/scenario1_13_company_details_EMI',
                 {'assetPath' : assetPath});
@@ -2135,6 +2249,52 @@ app.get('/EMI/scenario1_2_Group_EMI', function (req, res) {
                 {'assetPath' : assetPath});
 
     });
+
+
+app.get('/EMI/scenario1_1_What_EMI_ERROR', function (req, res) {
+      res.render('EMI/scenario1_1_What_EMI_ERROR',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/EMI/EMI_errors_scenario2_4', function (req, res) {
+      res.render('EMI/EMI_errors_scenario2_4',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/EMI/EMI_errors_scenario2_5', function (req, res) {
+      res.render('EMI/EMI_errors_scenario2_5',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+
+app.get('/EMI/scenario1_14_csv_ods_EMI_ERROR', function (req, res) {
+      res.render('EMI/scenario1_14_csv_ods_EMI_ERROR',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+app.get('/EMI/scenario1_18_upload_EMI_CSV_ERROR', function (req, res) {
+      res.render('EMI/scenario1_18_upload_EMI_CSV_ERROR',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/EMI/scenario1_15_ods_EMI_ERROR', function (req, res) {
+      res.render('EMI/scenario1_15_ods_EMI_ERROR',
+                {'assetPath' : assetPath});
+
+    });
+
 
 
       app.get('/EMI/scenario1_18_upload_EMI_CSV', function (req, res) {
