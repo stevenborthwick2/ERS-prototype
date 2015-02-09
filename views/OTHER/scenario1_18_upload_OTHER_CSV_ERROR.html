@@ -21,29 +21,12 @@
  <!-- radio buttons start -->
           <p class="text">Choose the comma separated values (CSV, .csv) files that you want to upload as part of your Other annual return.</p>
 
-          <div class="text panel-indent"><p class="text">
-              You can only upload CSV (.csv) files.
-              </p></div>
-                     <!--<details>
-            <summary><span class="summary">What are format errors?</span></summary>
-            <div class="panel-indent">
-              <p class="text">
-               Some information about formatting errors.
+          <div class="text panel-indent"><p class="text">You can only upload CSV (.csv) files.
               </p>
-            </div>
-            </details>
-            <br>
-            <p class="text">Your spreadsheet must be in OpenDocument Spreadsheet (.ods) format</p>-->
-         
-                    <!-- <details>
-            <summary><span class="summary">What is ods format?</span></summary>
-            <div class="panel-indent">
-              <p class="text">
-               Some information about ods.
-              </p>
-            </div>
-            </details>
-           <h2 class="heading-medium">Choose and upload your spreadsheet.</h2>-->
+
+
+           </div>
+                    
 </div>
 <div class="grid-wrapper">
     <div class="grid grid-2-3">
@@ -207,10 +190,7 @@
 </form>
 
  <form action="" method="post" class="form">
-            <fieldset>
-              <legend></legend>
-              
-      </fieldset>
+     
           <a class="button" href="OTHER_errors_scenario2_4">Upload files</a>
           
               
@@ -218,8 +198,7 @@
 
           <p class="text"><a href="scenario1_14_csv_ods_OTHER_ERROR">Back</a></p>
 
-</div>
-</div>
+
 
 
 <script>
@@ -248,16 +227,16 @@ $("#choose-file-button").click(function(e) {
 $("#input-file-name").change(function(e) {
     $("#fileDiv").show();       
     // Is IE then check version
-    if ((GetIEVersion() > 9) || (GetIEVersion() == 0)) {
-        var numberOfFiles = $("#input-file-name").get(0).files.length;
-        for (i=0; i<numberOfFiles; i++) {
-        $("#fileTable").append("<tr><td>"+$("#input-file-name").get(0).files.item(i).name+"</td><td>Ready to upload</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>"); 
-        }            
-    } else {
+   // if ((GetIEVersion() > 9) || (GetIEVersion() == 0)) {
+        //var numberOfFiles = $("#input-file-name").get(0).files.length;
+       // for (i=0; i<numberOfFiles; i++) {
+       // $("#fileTable").append("<tr><td>"+$("#input-file-name").get(0).files.item(i).name+"</td><td>Ready to upload</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>"); 
+       // }            
+   // } else {
         // Earlier versions of IE (<9)
-        var fileName = $("#input-file-name").val();
-        $("#fileTable").append("<tr><td>"+fileName+"</td><td>Ready to upload</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>");                                            
-    }
+        //var fileName = $("#input-file-name").val();
+       // $("#fileTable").append("<tr><td>"+fileName+"</td><td>Ready to upload</td><td><a href='javascript:void(0);' id='removeFile'>Remove file</a></td></tr>");                                            
+    //}
 });        
 
 $("#fileTable").on('click', '#removeFile', function() {
@@ -282,20 +261,20 @@ function getUrlVars() {
 $(document).ready(function(){
     //alert(getUrlVars()["radio-group"]);
    // $("h1").html("Upload your "+ getUrlVars()["radio-group"] +" spreadsheet");
-    $("#fileType").html("You've told us your spreadsheets are "+ getUrlVars()["radio-group"] +" files. If you're uploading multiple spreadsheets they must all be the same file type . ")
-})
+    //$("#fileType").html("You've told us your spreadsheets are "+ getUrlVars()["radio-group"] +" files. If you're uploading multiple spreadsheets they must all be the same file type . ")
+//})
 
 
 
 </script>
 
 
-
-
-
- <!-- main content ends -->
-
+<!-- main content ends -->
+</div>
+</div>
 </main>
 {{/content}}
 
 {{/layout}}
+
+
