@@ -2974,14 +2974,74 @@ app.get('/SIP/scenario1_19_add_company_details_SIP', function (req, res) {
 
 
 
+ // Alterations
+
+
+
+
+app.get('/Alterations_variations/current_version_page1', function (req, res) {
+      res.render('Alterations_variations/current_version_page1',
+                {'assetPath' : assetPath});
+
+    });
+
+app.get('/Alterations_variations/current_version_page2', function (req, res) {
+      res.render('Alterations_variations/current_version_page2',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+
+app.get('/Alterations_variations/reworded_version_page1', function (req, res) {
+      res.render('Alterations_variations/reworded_version_page1',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/Alterations_variations/reworded_version_page1', function (req, res) {
+      res.render('Alterations_variations/reworded_version_page1',
+                {'assetPath' : assetPath});
+
+    });
 
 
 
 
 
+app.get('/Alterations_variations/merged_version_page1', function (req, res) {
+      res.render('Alterations_variations/merged_version_page1',
+                {'assetPath' : assetPath});
+
+    });
 
 
-                
+app.get('/Alterations_variations/merged_version_page', function (req, res) {
+      res.render('Alterations_variations/merged_version_page',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/Alterations_variations/merged_version_page_version_2', function (req, res) {
+      res.render('Alterations_variations/merged_version_page_version_2',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+
+//Temporary COC files
+
+
+    app.get('/TCCOC/COC_menu', function (req, res) {
+      res.render('TCCOC/COC_menu',
+                {'assetPath' : assetPath});
+
+    });            
 
 
 

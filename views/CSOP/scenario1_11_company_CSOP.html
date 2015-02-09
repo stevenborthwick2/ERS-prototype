@@ -30,3 +30,35 @@
 {{/content}}
 
 {{/layout}}
+
+<script>
+
+$("#radio-inline-2").on('click', function() {
+  $("#country-name").show();
+  $("#crn").hide();
+  $("#ctr").hide();
+  $("#zip").show();
+
+
+
+ 
+});
+
+</script>
+
+<script>
+
+$("#country-name").hide();
+$("#zip").hide();
+
+
+$("#radio-inline-1").on('click', function() {
+  $("#country-name").hide();
+  $("#crn").show();
+  $("#ctr").show();
+  $("#zip").hide();
+
+ 
+});
+
+</script>
