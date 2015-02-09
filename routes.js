@@ -2184,6 +2184,13 @@ app.get('/OTHER/scenario3_8_Alterations_OTHER', function (req, res) {
     }); 
 
 
+            app.get('/OTHER/scenario2_5_Errors_Other', function (req, res) {
+      res.render('OTHER/scenario2_5_Errors_Other',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
 
 
 // EMI Scenarios
@@ -2267,6 +2274,13 @@ app.get('/EMI/EMI_errors_scenario2_4', function (req, res) {
 
 app.get('/EMI/EMI_errors_scenario2_5', function (req, res) {
       res.render('EMI/EMI_errors_scenario2_5',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/EMI/scenario2_5_Errors_EMI', function (req, res) {
+      res.render('EMI/scenario2_5_Errors_EMI',
                 {'assetPath' : assetPath});
 
     });
