@@ -2993,30 +2993,14 @@ app.get('/SIP/scenario1_19_add_company_details_SIP', function (req, res) {
 
 
 
-app.get('/Alterations_variations/current_version_page1', function (req, res) {
-      res.render('Alterations_variations/current_version_page1',
+app.get('/ALT/current_version_page1', function (req, res) {
+      res.render('ALT/current_version_page1',
                 {'assetPath' : assetPath});
 
     });
 
-app.get('/Alterations_variations/current_version_page2', function (req, res) {
-      res.render('Alterations_variations/current_version_page2',
-                {'assetPath' : assetPath});
-
-    });
-
-
-
-
-app.get('/Alterations_variations/reworded_version_page1', function (req, res) {
-      res.render('Alterations_variations/reworded_version_page1',
-                {'assetPath' : assetPath});
-
-    });
-
-
-app.get('/Alterations_variations/reworded_version_page2', function (req, res) {
-      res.render('Alterations_variations/reworded_version_page2',
+app.get('/ALT/current_version_page2', function (req, res) {
+      res.render('ALT/current_version_page2',
                 {'assetPath' : assetPath});
 
     });
@@ -3024,29 +3008,45 @@ app.get('/Alterations_variations/reworded_version_page2', function (req, res) {
 
 
 
-
-app.get('/Alterations_variations/merged_version_page1', function (req, res) {
-      res.render('Alterations_variations/merged_version_page1',
+app.get('/ALT/reworded_version_page1', function (req, res) {
+      res.render('ALT/reworded_version_page1',
                 {'assetPath' : assetPath});
 
     });
 
 
-app.get('/Alterations_variations/merged_version_page', function (req, res) {
-      res.render('Alterations_variations/merged_version_page',
+app.get('/ALT/reworded_version_page2', function (req, res) {
+      res.render('ALT/reworded_version_page2',
                 {'assetPath' : assetPath});
 
     });
 
 
-app.get('/Alterations_variations/merged_version_page_version_2', function (req, res) {
-      res.render('Alterations_variations/merged_version_page_version_2',
+
+
+
+app.get('/ALT/merged_version_page1', function (req, res) {
+      res.render('ALT/merged_version_page1',
                 {'assetPath' : assetPath});
 
     });
 
-app.get('/Alterations_variations/merged_version_page_version_1', function (req, res) {
-      res.render('Alterations_variations/merged_version_page_version_1',
+
+app.get('/ALT/merged_version_page', function (req, res) {
+      res.render('ALT/merged_version_page',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/ALT/merged_version_page_version_2', function (req, res) {
+      res.render('ALT/merged_version_page_version_2',
+                {'assetPath' : assetPath});
+
+    });
+
+app.get('/ALT/merged_version_page_version_1', function (req, res) {
+      res.render('ALT/merged_version_page_version_1',
                 {'assetPath' : assetPath});
 
     });
