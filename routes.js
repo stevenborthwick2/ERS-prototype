@@ -1925,6 +1925,19 @@ app.get('/CSOP/scenario3_8_Alterations_CSOP', function (req, res) {
     }); 
 
 
+            app.get('/CSOP/scenario2_5_Errors_CSOP', function (req, res) {
+      res.render('CSOP/scenario2_5_Errors_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+
+
+
+            
+
+
 
 
 // OTHER Scenarios
