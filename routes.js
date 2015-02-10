@@ -3015,8 +3015,8 @@ app.get('/Alterations_variations/reworded_version_page1', function (req, res) {
     });
 
 
-app.get('/Alterations_variations/reworded_version_page1', function (req, res) {
-      res.render('Alterations_variations/reworded_version_page1',
+app.get('/Alterations_variations/reworded_version_page2', function (req, res) {
+      res.render('Alterations_variations/reworded_version_page2',
                 {'assetPath' : assetPath});
 
     });
@@ -3044,6 +3044,13 @@ app.get('/Alterations_variations/merged_version_page_version_2', function (req, 
                 {'assetPath' : assetPath});
 
     });
+
+app.get('/Alterations_variations/merged_version_page_version_1', function (req, res) {
+      res.render('Alterations_variations/merged_version_page_version_1',
+                {'assetPath' : assetPath});
+
+    });
+
 
 
 

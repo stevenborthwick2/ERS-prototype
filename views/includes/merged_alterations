@@ -1,6 +1,6 @@
-  <h1 class="heading-large">Add trustee details</h1>
+  <h1 class="heading-large">Add scheme organiser details</h1>
 
-   
+   <p class="text"> Where is the company registered?</p>
     
 
 
@@ -21,7 +21,7 @@
             <br>
               
               <!--div4  start--><div class="form-group">
-          <label for="company-name" class="form-label"><span class="bold-small">Name</span></label>
+          <label for="company-name" class="form-label"><span class="bold-small">Company name</span></label>
               <input type="text" class="form-control" id="company-name">
             <!--div4  end--></div>
             <!--div5  start--><div class="form-group">
@@ -297,8 +297,37 @@
       
   
             
-            
-             
+            <p class="text"></p>
+            <!--div8  start-->
+            <div class="form-group" id="crn">
+          <label for="crn-name" class="form-label"><span class="bold-small">Company Registration Number</span></label>
+            <span class="text form-hint">It's an 8 digit number or 2 letters followed by a 6 digit number, allocated by Companies House. For example, 12345678 or AB123456.</span></label>
+             <input type="text" class="form-control-1-4" id="ctr-name">
+            <p class="text"></p>
+          <!--div11 <details>
+            <summary><span class="summary">Where can I find the CTR?</span></summary>
+             <div class="panel-indent">
+              <p class="text">
+               If hint is long place here.
+              </p>
+            </div> ends-->
+          </details> 
+              
+
+              </div>
+          </details> 
+     <div class="form-group" id="ctr">
+          <label for="ctr-name" class="form-label"><span class="bold-small">Corporation Tax Reference</span>
+          <span class="text form-hint">It's a 10 digit number issued by HM Revenue and Customs, usually used in relation to company tax returns. For example, 1234567890.</span></label>
+              <input type="text" class="form-control-1-4" id="ctr-name">
+            <p class="text"></p>
+          <!--div11 <details>
+            <summary><span class="summary">Where can I find the CTR?</span></summary>
+             <div class="panel-indent">
+              <p class="text">
+               If hint is long place here.
+              </p>
+            </div> ends-->
           </details> 
         </div>   <!--div10  ends--> 
 
