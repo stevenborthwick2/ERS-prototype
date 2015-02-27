@@ -34,10 +34,10 @@
               <label for="company-address3" class="form-label"></label>
               <input type="text" class="form-control" id="company-address2">
             <!--div5  end--></div>
-            <div class="form-group">
-          <label for="postcode-name" class="form-label">Postcode<span id ="zip" class="text">/ZIP code</span></label>
+           <div id="uk"class="form-group">
+              <label for="postcode-name" class="form-label">Postcode</label>
               <input type="text" class="form-control-1-8" id="postcode-name" maxlength="8">
-            <!--div7  end--></div> 
+            </div> 
             <!--div6  start-->
 
 
@@ -337,7 +337,8 @@ $("#radio-inline-2").on('click', function() {
   $("#country-name").show();
   $("#crn").hide();
   $("#ctr").hide();
-  $("#zip").show();
+  $("#overseas").show();
+  $("#uk").hide();
 
 
 
@@ -349,14 +350,15 @@ $("#radio-inline-2").on('click', function() {
 <script>
 
 $("#country-name").hide();
-$("#zip").hide();
+$("#overseas").hide();
 
 
 $("#radio-inline-1").on('click', function() {
   $("#country-name").hide();
   $("#crn").show();
   $("#ctr").show();
-  $("#zip").hide();
+  $("#uk").show();
+  $("#overseas").hide();
 
  
 });
