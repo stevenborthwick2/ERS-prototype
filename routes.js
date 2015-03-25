@@ -13,6 +13,12 @@ module.exports = {
 
     });
 
+       app.get('/launch', function (req, res) {
+      res.render('launch',
+                {'assetPath' : assetPath});
+
+    });
+
        app.get('/examples', function (req, res) {
       res.render('examples',
                 {'assetPath' : assetPath});
