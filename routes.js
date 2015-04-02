@@ -3071,6 +3071,99 @@ app.get('/ALT/merged_version_page_version_1', function (req, res) {
     });
 
 
+ // CSOP save for later demo
+
+
+    app.get('/CSOP_save_for_later_demo/01_CSOP_application_start', function (req, res) {
+      res.render('CSOP_save_for_later_demo/01_CSOP_application_start',
+                {'assetPath' : assetPath});
+
+    });
+
+
+     app.get('/CSOP_save_for_later_demo/02_CSOP_scheme_flow_start', function (req, res) {
+      res.render('CSOP_save_for_later_demo/02_CSOP_scheme_flow_start',
+                {'assetPath' : assetPath});
+
+    });
+
+
+     app.get('/CSOP_save_for_later_demo/03_CSOP_scheme_organiser', function (req, res) {
+      res.render('CSOP_save_for_later_demo/03_CSOP_scheme_organiser',
+                {'assetPath' : assetPath});
+
+    });
+
+
+    app.get('/CSOP_save_for_later_demo/04_CSOP_modal_box', function (req, res) {
+      res.render('CSOP_save_for_later_demo/04_CSOP_modal_box',
+                {'assetPath' : assetPath});
+
+    });
+
+
+    app.get('/CSOP_save_for_later_demo/05_CSOP_group_schemes_flow_exit', function (req, res) {
+      res.render('CSOP_save_for_later_demo/05_CSOP_group_schemes_flow_exit',
+                {'assetPath' : assetPath});
+
+    });
+
+
+    app.get('/CSOP_save_for_later_demo/06_CSOP_login_government_gateway', function (req, res) {
+      res.render('CSOP_save_for_later_demo/06_CSOP_login_government_gateway',
+                {'assetPath' : assetPath});
+
+    });
+
+    app.get('/CSOP_save_for_later_demo/07_CSOP_application_continue', function (req, res) {
+      res.render('CSOP_save_for_later_demo/07_CSOP_application_continue',
+                {'assetPath' : assetPath});
+
+    });
+
+     app.get('/CSOP_save_for_later_demo/08_CSOP_scheme_organiser_continue', function (req, res) {
+      res.render('CSOP_save_for_later_demo/08_CSOP_scheme_organiser_continue',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+     app.get('/CSOP_save_for_later_demo/A_CSOP_login_government_gateway_no_saved', function (req, res) {
+      res.render('CSOP_save_for_later_demo/A_CSOP_login_government_gateway_no_saved',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/CSOP_save_for_later_demo/B_CSOP_application_start_no_saved', function (req, res) {
+      res.render('CSOP_save_for_later_demo/B_CSOP_application_start_no_saved',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/CSOP_save_for_later_demo/C_CSOP_no_saved_application', function (req, res) {
+      res.render('CSOP_save_for_later_demo/C_CSOP_no_saved_application',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+
+   
+
+
+    
+
+
+    
+
+
+
+
+
 
 
 
