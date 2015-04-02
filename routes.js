@@ -3150,7 +3150,29 @@ app.get('/ALT/merged_version_page_version_1', function (req, res) {
     });
 
 
+      app.get('/CSOP_save_for_later_demo/09_CSOP_csv_ods', function (req, res) {
+      res.render('CSOP_save_for_later_demo/09_CSOP_csv_ods',
+                {'assetPath' : assetPath});
 
+    });
+
+
+      app.get('/CSOP_save_for_later_demo/10_CSOP_csv', function (req, res) {
+      res.render('CSOP_save_for_later_demo/10_CSOP_csv',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/CSOP_save_for_later_demo/11_CSOP_ods', function (req, res) {
+      res.render('CSOP_save_for_later_demo/11_CSOP_ods',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+   
 
    
 
