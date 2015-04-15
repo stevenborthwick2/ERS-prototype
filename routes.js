@@ -3170,6 +3170,12 @@ app.get('/ALT/merged_version_page_version_1', function (req, res) {
 
     });
 
+      app.get('/CSOP_save_for_later_demo/07_CSOP_application_start_no_saved', function (req, res) {
+      res.render('CSOP_save_for_later_demo/07_CSOP_application_start_no_saved',
+                {'assetPath' : assetPath});
+
+    });
+
 
 
    
