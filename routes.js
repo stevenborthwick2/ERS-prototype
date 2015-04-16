@@ -3177,6 +3177,103 @@ app.get('/ALT/merged_version_page_version_1', function (req, res) {
     });
 
 
+       app.get('/CSOP_save_for_later_demo/Saved_page_1', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Saved_page_1',
+                {'assetPath' : assetPath});
+
+    });
+
+
+ app.get('/CSOP_save_for_later_demo/Saved_page_2', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Saved_page_2',
+                {'assetPath' : assetPath});
+
+    });
+
+ app.get('/CSOP_save_for_later_demo/Saved_page_3', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Saved_page_3',
+                {'assetPath' : assetPath});
+
+    });
+
+ app.get('/CSOP_save_for_later_demo/Saved_page_4', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Saved_page_4',
+                {'assetPath' : assetPath});
+
+    });
+
+ app.get('/CSOP_save_for_later_demo/Saved_page_5', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Saved_page_5',
+                {'assetPath' : assetPath});
+
+    });
+
+
+  app.get('/CSOP_save_for_later_demo/Saved_page_6', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Saved_page_6',
+                {'assetPath' : assetPath});
+
+    });
+
+
+    app.get('/CSOP_save_for_later_demo/Saved_page_7', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Saved_page_7',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      
+
+
+       app.get('/CSOP_save_for_later_demo/Not_saved_page_1', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Not_saved_page_1',
+                {'assetPath' : assetPath});
+
+    });
+
+
+ app.get('/CSOP_save_for_later_demo/Not_saved_page_2', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Not_saved_page_2',
+                {'assetPath' : assetPath});
+
+    });
+
+ app.get('/CSOP_save_for_later_demo/Not_saved_page_3', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Not_saved_page_3',
+                {'assetPath' : assetPath});
+
+    });
+
+ app.get('/CSOP_save_for_later_demo/Not_saved_page_4', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Not_saved_page_4',
+                {'assetPath' : assetPath});
+
+    });
+
+ app.get('/CSOP_save_for_later_demo/Not_saved_page_5', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Not_saved_page_5',
+                {'assetPath' : assetPath});
+
+    });
+
+
+  app.get('/CSOP_save_for_later_demo/Not_saved_page_6', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Not_saved_page_6',
+                {'assetPath' : assetPath});
+
+    });
+
+
+    app.get('/CSOP_save_for_later_demo/Not_saved_page_7', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Not_saved_page_7',
+                {'assetPath' : assetPath});
+
+    });
+      
+      
+
+
 
    
 
