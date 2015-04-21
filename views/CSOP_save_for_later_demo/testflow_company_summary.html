@@ -47,7 +47,11 @@
 							<legend></legend>
 							
 			</fieldset>
-					<a class="button" href="scenario1_13_company_details_CSOP">Continue</a>
+			<div id="validationID" name ="validation" style = "visibility:hidden; margin-left:-1 " class=" panel-indent validation-message"> Add a company before continuing</div>
+					
+
+			<a class="button" onclick="showDiv()">Continue</a>
+					
 						  
 					</form>
 					<p class="text"><a href="scenario1_12_manual_csv_CSOP">Back</a></p>
@@ -58,6 +62,19 @@
 	</div>
 </div>
 </main>
+
+<script>
+
+function showDiv() {
+
+	
+	document.getElementById("validationID").style.visibility = "visible";
+	
+}
+
+</script>
+
+
 {{/content}}
 
 {{/layout}}

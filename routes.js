@@ -3520,6 +3520,13 @@ app.get('/CSOP_save_for_later_demo/scenario3_8_Alterations_CSOP', function (req,
     }); 
       
 
+        app.get('/CSOP_save_for_later_demo/scenario1_20_CSOP_company_single_summary', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_20_CSOP_company_single_summary',
+                {'assetPath' : assetPath});
+
+    }); 
+      
+
 
 
    
