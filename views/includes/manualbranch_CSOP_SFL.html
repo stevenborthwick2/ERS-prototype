@@ -18,7 +18,7 @@
  
         <div class="form-group">
             <br>
-          <button id="next" class="button">Continue</button>
+          <button id="next" class="button">Save and continue</button>
           <br>
           <a class="button-link" onclick="history.back(-1); return false; " href="scenario1_2_Group_CSOP">Back</a>
         </div>
@@ -42,8 +42,6 @@
              // else if radio button no is checked go to /summary page
              else if ($('#no').is(':checked')){
                location.href = 'testflow_company_summary'
-
-               
              }
              // else if nothing is ticket return false and od nothing
              else{

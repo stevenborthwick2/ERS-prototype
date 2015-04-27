@@ -3525,6 +3525,317 @@ app.get('/CSOP_save_for_later_demo/scenario3_8_Alterations_CSOP', function (req,
                 {'assetPath' : assetPath});
 
     }); 
+
+
+
+
+       app.get('/CSOP_save_for_later_demo/Not_saved_page_1', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Not_saved_page_1',
+                {'assetPath' : assetPath});
+
+    });
+
+
+ app.get('/CSOP_save_for_later_demo/Not_saved_page_2', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Not_saved_page_2',
+                {'assetPath' : assetPath});
+
+    });
+
+ app.get('/CSOP_save_for_later_demo/Not_saved_page_3', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Not_saved_page_3',
+                {'assetPath' : assetPath});
+
+    });
+
+ app.get('/CSOP_save_for_later_demo/Not_saved_page_4', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Not_saved_page_4',
+                {'assetPath' : assetPath});
+
+    });
+
+ app.get('/CSOP_save_for_later_demo/Not_saved_page_5', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Not_saved_page_5',
+                {'assetPath' : assetPath});
+
+    });
+
+
+  app.get('/CSOP_save_for_later_demo/Not_saved_page_6', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Not_saved_page_6',
+                {'assetPath' : assetPath});
+
+    });
+
+
+    app.get('/CSOP_save_for_later_demo/Not_saved_page_7', function (req, res) {
+      res.render('CSOP_save_for_later_demo/Not_saved_page_7',
+                {'assetPath' : assetPath});
+
+    });
+
+
+    // CSOP End of Year Return Scenario 3
+
+       app.get('/CSOP_save_for_later_demo/scenario1_0_Start_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_0_Start_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+       app.get('/CSOP_save_for_later_demo/CSOP_errors_scenario2_4', function (req, res) {
+      res.render('CSOP_save_for_later_demo/CSOP_errors_scenario2_4',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/CSOP_save_for_later_demo/CSOP_errors_scenario2_4', function (req, res) {
+      res.render('CSOP_save_for_later_demo/CSOP_errors_scenario2_4',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+        app.get('/CSOP_save_for_later_demo/scenario1_0_Start_CSOP_ERRORS', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_0_Start_CSOP_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+        app.get('/CSOP_save_for_later_demo/scenario1_13_company_details_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_13_company_details_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+        app.get('/CSOP_save_for_later_demo/scenario1_16_CSOP_company_summary', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_16_CSOP_company_summary',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/CSOP_save_for_later_demo/scenario1_17_upload_CSOP_CSV', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_17_upload_CSOP_CSV',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/CSOP_save_for_later_demo/scenario1_1_What_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_1_What_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+       app.get('/CSOP_save_for_later_demo/scenario1_1_What_CSOP_ERRORS', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_1_What_CSOP_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/CSOP_save_for_later_demo/scenario1_18_upload_CSOP_CSV', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_18_upload_CSOP_CSV',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/CSOP_save_for_later_demo/scenario1_18_upload_CSOP_CSV_ERRORS', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_18_upload_CSOP_CSV_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/CSOP_save_for_later_demo/scenario1_11_company_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_11_company_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+ app.get('/CSOP_save_for_later_demo/CSOP_errors_scenario2_5', function (req, res) {
+      res.render('CSOP_save_for_later_demo/CSOP_errors_scenario2_5',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       
+
+              app.get('/CSOP_save_for_later_demo/scenario3_1_What_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario3_1_What_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/CSOP/scenario3_2_Check_CSOP', function (req, res) {
+      res.render('CSOP/scenario3_2_Check_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+   app.get('/CSOP_save_for_later_demo/scenario3_3_Group_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario3_3_Group_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/CSOP_save_for_later_demo/scenario3_4_Group_Details_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario3_4_Group_Details_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/CSOP_save_for_later_demo/scenario3_5_Group_Edit_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario3_5_Group_Edit_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+         
+             app.get('/CSOP_save_for_later_demo/scenario3_6_Trustee_Details_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario3_6_Trustee_Details_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/CSOP_save_for_later_demo/scenario3_7_Trustee_Edit_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario3_7_Trustee_Edit_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+app.get('/CSOP_save_for_later_demo/scenario3_8_Alterations_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario3_8_Alterations_CSOP',
+                {'assetPath' : assetPath});
+
+    });      
+
+                app.get('/CSOP_save_for_later_demo/scenario3_9_Alterations_Check_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario3_9_Alterations_Check_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+                app.get('/CSOP_save_for_later_demo/scenario2_4_Errors_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario2_4_Errors_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+                app.get('/CSOP_save_for_later_demo/scenario3_10_Summary_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario3_10_Summary_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+             app.get('/CSOP_save_for_later_demo/scenario3_11_Confirmation_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario3_11_Confirmation_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/CSOP_save_for_later_demo/scenario1_17_upload_CSV', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_17_upload_CSV',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/CSOP_save_for_later_demo/scenario1_17_upload_CSV', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_17_upload_CSV',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+
+            app.get('/CSOP_save_for_later_demo/scenario1_7_Alterations_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_7_Alterations_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+ app.get('/CSOP_save_for_later_demo/scenario1_14_csv_ods_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_14_csv_ods_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+
+            app.get('/CSOP_save_for_later_demo/scenario1_14_csv_ods_CSOP_ERRORS', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_14_csv_ods_CSOP_ERRORS',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/CSOP_save_for_later_demo/scenario1_15_ods_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_15_ods_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/CSOP_save_for_later_demo/scenario1_15_ods_CSOP_ERRORS', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_15_ods_CSOP_ERRORS',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/CSOP_save_for_later_demo/scenario1_2_Group_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_2_Group_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+            app.get('/CSOP_save_for_later_demo/scenario1_12_manual_csv_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_12_manual_csv_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+            app.get('/CSOP_save_for_later_demo/scenario2_5_Errors_CSOP', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario2_5_Errors_CSOP',
+                {'assetPath' : assetPath});
+
+    }); 
+      
+
+        app.get('/CSOP_save_for_later_demo/testflow_company_summary', function (req, res) {
+      res.render('CSOP_save_for_later_demo/testflow_company_summary',
+                {'assetPath' : assetPath});
+
+    }); 
+      
+
+        app.get('/CSOP_save_for_later_demo/scenario1_20_CSOP_company_single_summary', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_20_CSOP_company_single_summary',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+        app.get('/CSOP_save_for_later_demo/scenario1_20_CSOP_company_single_summary', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_20_CSOP_company_single_summary',
+                {'assetPath' : assetPath});
+
+    }); 
+      
       
 
 
@@ -3553,7 +3864,329 @@ app.get('/CSOP_save_for_later_demo/scenario3_8_Alterations_CSOP', function (req,
       res.render('TCCOC/COC_menu',
                 {'assetPath' : assetPath});
 
-    });            
+    });    
+
+
+
+
+// CSOP save for later demo
+
+
+    app.get('/New_summary_flow/01_CSOP_application_start', function (req, res) {
+      res.render('New_summary_flow/01_CSOP_application_start',
+                {'assetPath' : assetPath});
+
+    });
+
+
+     app.get('/New_summary_flow/02_CSOP_scheme_flow_start', function (req, res) {
+      res.render('New_summary_flow/02_CSOP_scheme_flow_start',
+                {'assetPath' : assetPath});
+
+    });
+
+
+     app.get('/New_summary_flow/03_CSOP_scheme_organiser', function (req, res) {
+      res.render('New_summary_flow/03_CSOP_scheme_organiser',
+                {'assetPath' : assetPath});
+
+    });
+
+
+    app.get('/New_summary_flow/04_CSOP_modal_box', function (req, res) {
+      res.render('New_summary_flow/04_CSOP_modal_box',
+                {'assetPath' : assetPath});
+
+    });
+
+
+    app.get('/New_summary_flow/05_CSOP_group_schemes_flow_exit', function (req, res) {
+      res.render('New_summary_flow/05_CSOP_group_schemes_flow_exit',
+                {'assetPath' : assetPath});
+
+    });
+
+
+    app.get('/New_summary_flow/06_CSOP_login_government_gateway', function (req, res) {
+      res.render('New_summary_flow/06_CSOP_login_government_gateway',
+                {'assetPath' : assetPath});
+
+    });
+
+    app.get('/New_summary_flow/07_CSOP_application_continue', function (req, res) {
+      res.render('New_summary_flow/07_CSOP_application_continue',
+                {'assetPath' : assetPath});
+
+    });
+
+     app.get('/New_summary_flow/08_CSOP_scheme_organiser_continue', function (req, res) {
+      res.render('New_summary_flow/08_CSOP_scheme_organiser_continue',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+     app.get('/New_summary_flow/A_CSOP_login_government_gateway_no_saved', function (req, res) {
+      res.render('New_summary_flow/A_CSOP_login_government_gateway_no_saved',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/New_summary_flow/B_CSOP_application_start_no_saved', function (req, res) {
+      res.render('New_summary_flow/B_CSOP_application_start_no_saved',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/New_summary_flow/C_CSOP_no_saved_application', function (req, res) {
+      res.render('New_summary_flow/C_CSOP_no_saved_application',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/New_summary_flow/09_CSOP_csv_ods', function (req, res) {
+      res.render('New_summary_flow/09_CSOP_csv_ods',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/New_summary_flow/10_CSOP_csv', function (req, res) {
+      res.render('New_summary_flow/10_CSOP_csv',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/New_summary_flow/11_CSOP_ods', function (req, res) {
+      res.render('New_summary_flow/11_CSOP_ods',
+                {'assetPath' : assetPath});
+
+    });
+
+      app.get('/New_summary_flow/07_CSOP_application_start_no_saved', function (req, res) {
+      res.render('New_summary_flow/07_CSOP_application_start_no_saved',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/New_summary_flow/Saved_page_1', function (req, res) {
+      res.render('New_summary_flow/Saved_page_1',
+                {'assetPath' : assetPath});
+
+    });
+
+
+ app.get('/New_summary_flow/Saved_page_2', function (req, res) {
+      res.render('New_summary_flow/Saved_page_2',
+                {'assetPath' : assetPath});
+
+    });
+
+ app.get('/New_summary_flow/Saved_page_3', function (req, res) {
+      res.render('New_summary_flow/Saved_page_3',
+                {'assetPath' : assetPath});
+
+    });
+
+ app.get('/New_summary_flow/Saved_page_4', function (req, res) {
+      res.render('New_summary_flow/Saved_page_4',
+                {'assetPath' : assetPath});
+
+    });
+
+ app.get('/New_summary_flow/Saved_page_5', function (req, res) {
+      res.render('New_summary_flow/Saved_page_5',
+                {'assetPath' : assetPath});
+
+    });
+
+
+  app.get('/New_summary_flow/Saved_page_6', function (req, res) {
+      res.render('New_summary_flow/Saved_page_6',
+                {'assetPath' : assetPath});
+
+    });
+
+
+    app.get('/New_summary_flow/Saved_page_7', function (req, res) {
+      res.render('New_summary_flow/Saved_page_7',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      
+
+
+       app.get('/New_summary_flow/Not_saved_page_1', function (req, res) {
+      res.render('New_summary_flow/Not_saved_page_1',
+                {'assetPath' : assetPath});
+
+    });
+
+
+ app.get('/New_summary_flow/Not_saved_page_2', function (req, res) {
+      res.render('New_summary_flow/Not_saved_page_2',
+                {'assetPath' : assetPath});
+
+    });
+
+ app.get('/New_summary_flow/Not_saved_page_3', function (req, res) {
+      res.render('New_summary_flow/Not_saved_page_3',
+                {'assetPath' : assetPath});
+
+    });
+
+ app.get('/New_summary_flow/Not_saved_page_4', function (req, res) {
+      res.render('New_summary_flow/Not_saved_page_4',
+                {'assetPath' : assetPath});
+
+    });
+
+ app.get('/New_summary_flow/Not_saved_page_5', function (req, res) {
+      res.render('New_summary_flow/Not_saved_page_5',
+                {'assetPath' : assetPath});
+
+    });
+
+
+  app.get('/New_summary_flow/Not_saved_page_6', function (req, res) {
+      res.render('New_summary_flow/Not_saved_page_6',
+                {'assetPath' : assetPath});
+
+    });
+
+
+    app.get('/New_summary_flow/Not_saved_page_7', function (req, res) {
+      res.render('New_summary_flow/Not_saved_page_7',
+                {'assetPath' : assetPath});
+
+    });
+
+
+    // CSOP End of Year Return Scenario 3
+
+       app.get('/New_summary_flow/scenario1_0_Start_CSOP', function (req, res) {
+      res.render('New_summary_flow/scenario1_0_Start_CSOP',
+                {'assetPath' : assetPath});
+
+    });
+
+       app.get('/New_summary_flow/CSOP_errors_scenario2_4', function (req, res) {
+      res.render('New_summary_flow/CSOP_errors_scenario2_4',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/New_summary_flow/CSOP_errors_scenario2_4', function (req, res) {
+      res.render('New_summary_flow/CSOP_errors_scenario2_4',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+        app.get('/CSOP_save_for_later_demo/scenario1_0_Start_CSOP_ERRORS', function (req, res) {
+      res.render('CSOP_save_for_later_demo/scenario1_0_Start_CSOP_ERRORS',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/CSOP_save_for_later_demo/combined_data_table', function (req, res) {
+      res.render('CSOP_save_for_later_demo/combined_data_table',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+      app.get('/CSOP_save_for_later_demo/new_flow_01', function (req, res) {
+      res.render('CSOP_save_for_later_demo/new_flow_01',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/CSOP_save_for_later_demo/new_flow_02', function (req, res) {
+      res.render('CSOP_save_for_later_demo/new_flow_02',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/CSOP_save_for_later_demo/new_flow_03', function (req, res) {
+      res.render('CSOP_save_for_later_demo/new_flow_03',
+                {'assetPath' : assetPath});
+
+    });
+
+      app.get('/CSOP_save_for_later_demo/new_flow_04', function (req, res) {
+      res.render('CSOP_save_for_later_demo/new_flow_04',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/CSOP_save_for_later_demo/new_flow_05', function (req, res) {
+      res.render('CSOP_save_for_later_demo/new_flow_05',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/CSOP_save_for_later_demo/new_flow_06', function (req, res) {
+      res.render('CSOP_save_for_later_demo/new_flow_06',
+                {'assetPath' : assetPath});
+
+    });
+
+
+      app.get('/CSOP_save_for_later_demo/new_flow_07', function (req, res) {
+      res.render('CSOP_save_for_later_demo/new_flow_07',
+                {'assetPath' : assetPath});
+
+    });
+
+
+       app.get('/CSOP_save_for_later_demo/new_flow_08', function (req, res) {
+      res.render('CSOP_save_for_later_demo/new_flow_08',
+                {'assetPath' : assetPath});
+
+    });
+
+
+ app.get('/CSOP_save_for_later_demo/new_flow_09', function (req, res) {
+      res.render('CSOP_save_for_later_demo/new_flow_09',
+                {'assetPath' : assetPath});
+
+    });
+
+
+ app.get('/CSOP_save_for_later_demo/new_flow_10', function (req, res) {
+      res.render('CSOP_save_for_later_demo/new_flow_10',
+                {'assetPath' : assetPath});
+
+    });
+
+
+app.get('/CSOP_save_for_later_demo/new_flow_11', function (req, res) {
+      res.render('CSOP_save_for_later_demo/new_flow_11',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+
+            
 
 
 
