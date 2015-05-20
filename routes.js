@@ -1941,6 +1941,8 @@ app.get('/CSOP/scenario3_8_Alterations_CSOP', function (req, res) {
 
 
 
+
+
             
 
 
@@ -4182,6 +4184,366 @@ app.get('/CSOP_save_for_later_demo/new_flow_11', function (req, res) {
                 {'assetPath' : assetPath});
 
     });
+
+
+app.get('/Prog_Ind_1/01_PICSOP_application_start', function (req, res) {
+      res.render('Prog_Ind_1/01_PICSOP_application_start',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+app.get('/Prog_Ind_1/01_PICSOP_application_start', function (req, res) {
+      res.render('Prog_Ind_1/01_PICSOP_application_start',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+app.get('/Prog_Ind_1/02_PICSOP_scheme_flow_start', function (req, res) {
+      res.render('Prog_Ind_1/02_PICSOP_scheme_flow_start',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+app.get('/Prog_Ind_1/03_PICSOP_scheme_organiser', function (req, res) {
+      res.render('Prog_Ind_1/03_PICSOP_scheme_organiser',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+app.get('/Prog_Ind_1/04_PICSOP_modal_box', function (req, res) {
+      res.render('Prog_Ind_1/04_PICSOP_modal_box',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+app.get('/Prog_Ind_1/05_PICSOP_group_schemes_flow_exit', function (req, res) {
+      res.render('Prog_Ind_1/05_PICSOP_group_schemes_flow_exit',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+app.get('/Prog_Ind_1/06_PICSOP_login_government_gateway', function (req, res) {
+      res.render('Prog_Ind_1/06_PICSOP_login_government_gateway',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+app.get('/Prog_Ind_1/07_PICSOP_application_continue', function (req, res) {
+      res.render('Prog_Ind_1/07_PICSOP_application_continue',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+app.get('/Prog_Ind_1/08_PICSOP_scheme_organiser_continue', function (req, res) {
+      res.render('Prog_Ind_1/08_PICSOP_scheme_organiser_continue',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+app.get('/Prog_Ind_1/09_PICSOP_csv_ods', function (req, res) {
+      res.render('Prog_Ind_1/09_PICSOP_csv_ods',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+app.get('/Prog_Ind_1/10_PICSOP_csv', function (req, res) {
+      res.render('Prog_Ind_1/10_PICSOP_csv',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+app.get('/Prog_Ind_1/11_PICSOP_ods', function (req, res) {
+      res.render('Prog_Ind_1/11_PICSOP_ods',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+
+
+
+
+
+
+// SIP 2
+       app.get('/SIP_2/2scenario1_0_Start_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_0_Start_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/SIP_2/2scenario1_1_What_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_1_What_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+                      app.get('/SIP_2/2scenario1_14_csv_ods_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_14_csv_ods_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+                       app.get('/SIP_2/2scenario1_15_ods_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_15_ods_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+                       app.get('/SIP_2/2scenario1_16_group_company_summary', function (req, res) {
+      res.render('SIP_2/2scenario1_16_group_company_summary',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+                       
+
+
+                      
+
+
+
+              
+
+              app.get('/SIP_2/2scenario1_12_manual_csv_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_12_manual_csv_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+              app.get('/SIP_2/2scenario1_13_company_details_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_13_company_details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+
+             
+
+              app.get('/SIP_2/test', function (req, res) {
+      res.render('SIP_2/test',
+                {'assetPath' : assetPath});
+
+    });
+
+                          app.get('/SIP_2/2scenario1_2_Group_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_2_Group_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/SIP_2/2scenario1_3_Group_Details_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_3_Group_Details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SIP_2/2scenario1_4_Group_Edit_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_4_Group_Edit_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+         
+             app.get('/SIP_2/2scenario1_5_Trustee_Details_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_5_Trustee_Details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SIP_2/2scenario1_6_Trustee_Edit_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_6_Trustee_Edit_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+app.get('/SIP_2/2scenario1_7_Alterations_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_7_Alterations_SIP',
+                {'assetPath' : assetPath});
+
+    });      
+
+                app.get('/SIP_2/2scenario1_8_Alterations_Check_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_8_Alterations_Check_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+                app.get('/SIP_2/2scenario1_9_Summary_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_9_Summary_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+             app.get('/SIP_2/2scenario1_10_Confirmation_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_10_Confirmation_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+// SIP End of Year Return Scenario 2
+
+       app.get('/SIP_2/2scenario2_0_Start_SIP', function (req, res) {
+      res.render('SIP_2/2scenario2_0_Start_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/SIP_2/2scenario2_1_What_SIP', function (req, res) {
+      res.render('SIP_2/2scenario2_1_What_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+               app.get('/SIP_2/2scenario2_2_Check_SIP', function (req, res) {
+      res.render('SIP_2/2scenario2_2_Check_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+                 app.get('/SIP/scenario2_3_Errors_SIP', function (req, res) {
+      res.render('SIP/scenario2_3_Errors_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+  app.get('/SIP_2/2scenario2_4_Errors_SIP', function (req, res) {
+      res.render('SIP_2/2scenario2_4_Errors_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+
+   
+
+// SIP End of Year Return Scenario 3
+
+       app.get('/SIP_2/2scenario3_0_Start_SIP', function (req, res) {
+      res.render('SIP_2/2scenario3_0_Start_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+       app.get('/SIP_2/2scenario1_11_company_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_11_company_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+              app.get('/SIP_2/2scenario3_1_What_SIP', function (req, res) {
+      res.render('SIP_2/2scenario3_1_What_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/SIP_2/scenario3_2_Check_SIP', function (req, res) {
+      res.render('SIP_2/scenario3_2_Check_SIP',
+                {'assetPath' : assetPath});
+
+
+
+    });
+
+   app.get('/SIP_2/2scenario3_3_Group_SIP', function (req, res) {
+      res.render('SIP_2/2scenario3_3_Group_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+          app.get('/SIP_2/2scenario3_4_Group_Details_SIP', function (req, res) {
+      res.render('SIP_2/2scenario3_4_Group_Details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SIP_2/2scenario3_5_Group_Edit_SIP', function (req, res) {
+      res.render('SIP_2/2scenario3_5_Group_Edit_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+         
+             app.get('/SIP_2/2scenario3_6_Trustee_Details_SIP', function (req, res) {
+      res.render('SIP_2/2scenario3_6_Trustee_Details_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+            app.get('/SIP_2/2scenario3_7_Trustee_Edit_SIP', function (req, res) {
+      res.render('SIP_2/2scenario3_7_Trustee_Edit_SIP',
+                {'assetPath' : assetPath});
+
+    });
+
+app.get('/SIP_2/2scenario3_8_Alterations_SIP', function (req, res) {
+      res.render('SIP_2/2scenario3_8_Alterations_SIP',
+                {'assetPath' : assetPath});
+
+    });      
+
+                app.get('/SIP_2/2scenario3_9_Alterations_Check_SIP', function (req, res) {
+      res.render('SIP_2/2scenario3_9_Alterations_Check_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+                app.get('/SIP_2/2scenario3_10_Summary_SIP', function (req, res) {
+      res.render('SIP_2/2scenario3_10_Summary_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+             app.get('/SIP_2/2scenario3_11_Confirmation_SIP', function (req, res) {
+      res.render('SIP_2/2scenario3_11_Confirmation_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+app.get('/SIP_2/2scenario1_17_upload_CSV', function (req, res) {
+      res.render('SIP_2/2scenario1_17_upload_CSV',
+                {'assetPath' : assetPath});
+
+    }); 
+
+app.get('/SIP_2/2scenario1_11_company_SIP', function (req, res) {
+      res.render('SIP_2/2scenario1_11_company_SIP',
+                {'assetPath' : assetPath});
+
+    }); 
+
+
+app.get('/SIP_2/2scenario1_16_SIP_company_summary', function (req, res) {
+      res.render('SIP_2/2scenario1_16_SIP_company_summary',
+                {'assetPath' : assetPath});
+
+    }); 
+
+app.get('/SIP_2/2scenario1_17_upload_SIP_CSV', function (req, res) {
+      res.render('SIP_2/2scenario1_17_upload_SIP_CSV',
+                {'assetPath' : assetPath});
+
+    }); 
+
 
 
 

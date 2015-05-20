@@ -1157,6 +1157,14 @@ ul li, ol li {
   padding: 4px;
   font-size: 19px; }
 
+.progress {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey; }
+
+.progress_active {
+  color: #000000;
+  font-weight: bold; }
+
 .hmrc-banner {
   border-left: 2px solid #009390;
   display: block;
